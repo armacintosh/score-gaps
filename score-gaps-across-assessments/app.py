@@ -5,7 +5,7 @@ import pandas as pd
 st.set_page_config(layout="wide")
 
 # Load your dataframe
-merged_df = pd.read_csv('data/merged_data.csv')
+merged_df = pd.read_csv('merged_data.csv')
 
 # Order of subjects for the table
 subjects_ordered = [
