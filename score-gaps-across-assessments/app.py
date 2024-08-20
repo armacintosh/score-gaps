@@ -1,11 +1,22 @@
 import streamlit as st
 import pandas as pd
+import requests
+from io import StringIO
 
 # Set page layout to wide
 st.set_page_config(layout="wide")
 
+def load_original_data():
+    url = 'https://raw.githubusercontent.com/armacintosh/score-gaps/main/score-gaps-across-assessments/merged_data.csv'
+    response = requests.get(url)
+    if response.status_code == 200:
+        return pd.read_csv(StringIO(response.text))
+    else:
+        st.error("Failed to load data from GitHub.")
+        return None
+      
 # Load your dataframe
-merged_df = pd.read_csv('merged_data.csv')
+merged_df = load_original_data()
 
 # Order of subjects for the table
 subjects_ordered = [
