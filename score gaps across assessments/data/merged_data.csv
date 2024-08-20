@@ -1,0 +1,676 @@
+Variable,Subject,Grade,Year,Jurisdiction,Grouping,Mean,SD,N,Cohen's d
+First Language Learned,SAT - ERW,NA,2023,US,English Only,537.0,110.0,1047520.0,
+First Language Learned,SAT - Math,NA,2023,US,English Only,517.0,122.0,1047520.0,
+First Language Learned,SAT - Total,NA,2023,US,English Only,1054.0,221.0,1047520.0,
+Gender,SAT - ERW,NA,2023,US,Female,523.0,110.0,966726.0,0.0
+Gender,SAT - Math,NA,2023,US,Female,500.0,122.0,966726.0,0.0
+Gender,SAT - Total,NA,2023,US,Female,1023.0,221.0,966726.0,0.0
+Gender,SAT - ERW,NA,2023,US,Male,517.0,110.0,936481.0,-0.05454545454545454
+Gender,SAT - Math,NA,2023,US,Male,515.0,122.0,936481.0,0.12295081967213115
+Gender,SAT - Total,NA,2023,US,Male,1032.0,221.0,936481.0,0.04072398190045249
+Race/Ethnicity,SAT - ERW,NA,2023,US,White,550.0,110.0,752632.0,0.0
+Race/Ethnicity,SAT - Math,NA,2023,US,White,532.0,122.0,752632.0,0.0
+Race/Ethnicity,SAT - Total,NA,2023,US,White,1082.0,221.0,752632.0,0.0
+Median Family Income,SAT - ERW,NA,2023,US,"Highest Quintile (>$113,341)",580.0,110.0,504985.0,
+Median Family Income,SAT - Math,NA,2023,US,"Highest Quintile (>$113,341)",569.0,122.0,504985.0,
+Median Family Income,SAT - Total,NA,2023,US,"Highest Quintile (>$113,341)",1148.0,221.0,504985.0,
+Parent Education,SAT - ERW,NA,2023,US,Bachelor's Degree,558.0,110.0,493158.0,
+Parent Education,SAT - Math,NA,2023,US,Bachelor's Degree,549.0,122.0,493158.0,
+Parent Education,SAT - Total,NA,2023,US,Bachelor's Degree,1107.0,221.0,493158.0,
+Race/Ethnicity,SAT - ERW,NA,2023,US,Hispanic,482.0,110.0,462186.0,-0.6181818181818182
+Race/Ethnicity,SAT - Math,NA,2023,US,Hispanic,461.0,122.0,462186.0,-0.5819672131147541
+Race/Ethnicity,SAT - Total,NA,2023,US,Hispanic,943.0,221.0,462186.0,-0.6289592760180995
+Parent Education,SAT - ERW,NA,2023,US,No Response,448.0,110.0,421411.0,
+Parent Education,SAT - Math,NA,2023,US,No Response,433.0,122.0,421411.0,
+Parent Education,SAT - Total,NA,2023,US,No Response,881.0,221.0,421411.0,
+Parent Education,SAT - ERW,NA,2023,US,Graduate Degree,594.0,110.0,408482.0,
+Parent Education,SAT - Math,NA,2023,US,Graduate Degree,588.0,122.0,408482.0,
+Parent Education,SAT - Total,NA,2023,US,Graduate Degree,1181.0,221.0,408482.0,
+Parent Education,SAT - ERW,NA,2023,US,High School Diploma,492.0,110.0,384502.0,
+Parent Education,SAT - Math,NA,2023,US,High School Diploma,473.0,122.0,384502.0,
+Parent Education,SAT - Total,NA,2023,US,High School Diploma,966.0,221.0,384502.0,
+Median Family Income,SAT - ERW,NA,2023,US,Unknown,502.0,110.0,384188.0,
+Median Family Income,SAT - Math,NA,2023,US,Unknown,510.0,122.0,384188.0,
+Median Family Income,SAT - Total,NA,2023,US,Unknown,1012.0,221.0,384188.0,
+First Language Learned,SAT - ERW,NA,2023,US,No Response,460.0,110.0,342073.0,
+First Language Learned,SAT - Math,NA,2023,US,No Response,444.0,122.0,342073.0,
+First Language Learned,SAT - Total,NA,2023,US,No Response,904.0,221.0,342073.0,
+Median Family Income,SAT - ERW,NA,2023,US,"2nd Highest Quintile ($86,074-$113,340)",529.0,110.0,337245.0,
+Median Family Income,SAT - Math,NA,2023,US,"2nd Highest Quintile ($86,074-$113,340)",510.0,122.0,337245.0,
+Median Family Income,SAT - Total,NA,2023,US,"2nd Highest Quintile ($86,074-$113,340)",1039.0,221.0,337245.0,
+First Language Learned,SAT - ERW,NA,2023,US,English and Another Language,530.0,110.0,323387.0,
+First Language Learned,SAT - Math,NA,2023,US,English and Another Language,529.0,122.0,323387.0,
+First Language Learned,SAT - Total,NA,2023,US,English and Another Language,1058.0,221.0,323387.0,
+Median Family Income,SAT - ERW,NA,2023,US,"Middle Quintile ($69,093-$86,073)",503.0,110.0,256127.0,
+Median Family Income,SAT - Math,NA,2023,US,"Middle Quintile ($69,093-$86,073)",481.0,122.0,256127.0,
+Median Family Income,SAT - Total,NA,2023,US,"Middle Quintile ($69,093-$86,073)",984.0,221.0,256127.0,
+Median Family Income,SAT - ERW,NA,2023,US,"2nd Lowest Quintile ($53,264-$69,092)",482.0,110.0,227256.0,
+Median Family Income,SAT - Math,NA,2023,US,"2nd Lowest Quintile ($53,264-$69,092)",460.0,122.0,227256.0,
+Median Family Income,SAT - Total,NA,2023,US,"2nd Lowest Quintile ($53,264-$69,092)",942.0,221.0,227256.0,
+Race/Ethnicity,SAT - ERW,NA,2023,US,Black,466.0,110.0,225954.0,-0.7636363636363637
+Race/Ethnicity,SAT - Math,NA,2023,US,Black,441.0,122.0,225954.0,-0.7459016393442623
+Race/Ethnicity,SAT - Total,NA,2023,US,Black,908.0,221.0,225954.0,-0.7873303167420814
+Median Family Income,SAT - ERW,NA,2023,US,"Lowest Quintile ($0-$53,263)",456.0,110.0,203941.0,
+Median Family Income,SAT - Math,NA,2023,US,"Lowest Quintile ($0-$53,263)",434.0,122.0,203941.0,
+Median Family Income,SAT - Total,NA,2023,US,"Lowest Quintile ($0-$53,263)",891.0,221.0,203941.0,
+First Language Learned,SAT - ERW,NA,2023,US,Another Language,517.0,110.0,200762.0,
+First Language Learned,SAT - Math,NA,2023,US,Another Language,534.0,122.0,200762.0,
+First Language Learned,SAT - Total,NA,2023,US,Another Language,1052.0,221.0,200762.0,
+Race/Ethnicity,SAT - ERW,NA,2023,US,Asian,593.0,110.0,194108.0,0.39090909090909093
+Race/Ethnicity,SAT - Math,NA,2023,US,Asian,626.0,122.0,194108.0,0.7704918032786885
+Race/Ethnicity,SAT - Total,NA,2023,US,Asian,1219.0,221.0,194108.0,0.6199095022624435
+Race/Ethnicity,SAT - ERW,NA,2023,US,No Response,478.0,110.0,190277.0,-0.6545454545454545
+Race/Ethnicity,SAT - Math,NA,2023,US,No Response,477.0,122.0,190277.0,-0.45081967213114754
+Race/Ethnicity,SAT - Total,NA,2023,US,No Response,955.0,221.0,190277.0,-0.5746606334841629
+Parent Education,SAT - ERW,NA,2023,US,No High School Diploma,460.0,110.0,116796.0,
+Parent Education,SAT - Math,NA,2023,US,No High School Diploma,451.0,122.0,116796.0,
+Parent Education,SAT - Total,NA,2023,US,No High School Diploma,910.0,221.0,116796.0,
+Parent Education,SAT - ERW,NA,2023,US,Associate Degree,513.0,110.0,89393.0,
+Parent Education,SAT - Math,NA,2023,US,Associate Degree,491.0,122.0,89393.0,
+Parent Education,SAT - Total,NA,2023,US,Associate Degree,1004.0,221.0,89393.0,
+Race/Ethnicity,SAT - ERW,NA,2023,US,Multiple Races/Ethnicities,556.0,110.0,69410.0,0.05454545454545454
+Race/Ethnicity,SAT - Math,NA,2023,US,Multiple Races/Ethnicities,535.0,122.0,69410.0,0.02459016393442623
+Race/Ethnicity,SAT - Total,NA,2023,US,Multiple Races/Ethnicities,1091.0,221.0,69410.0,0.04072398190045249
+Race/Ethnicity,SAT - ERW,NA,2023,US,American Indian/Alaska Native,458.0,110.0,15384.0,-0.8363636363636363
+Race/Ethnicity,SAT - Math,NA,2023,US,American Indian/Alaska Native,443.0,122.0,15384.0,-0.7295081967213115
+Race/Ethnicity,SAT - Total,NA,2023,US,American Indian/Alaska Native,901.0,221.0,15384.0,-0.8190045248868778
+Gender,SAT - ERW,NA,2023,US,Another gender,552.0,110.0,10535.0,0.2636363636363636
+Gender,SAT - Math,NA,2023,US,Another gender,506.0,122.0,10535.0,0.04918032786885246
+Gender,SAT - Total,NA,2023,US,Another gender,1058.0,221.0,10535.0,0.1583710407239819
+Race/Ethnicity,SAT - ERW,NA,2023,US,Native Hawaiian/Other Pacific Islander,473.0,110.0,3791.0,-0.7
+Race/Ethnicity,SAT - Math,NA,2023,US,Native Hawaiian/Other Pacific Islander,452.0,122.0,3791.0,-0.6557377049180327
+Race/Ethnicity,SAT - Total,NA,2023,US,Native Hawaiian/Other Pacific Islander,925.0,221.0,3791.0,-0.7104072398190046
+Race/Ethnicity,NAEP - Science - 4,,2019,US,White,162.99,31.74,,0.0
+Race/Ethnicity,NAEP - Science - 4,,2019,US,Black,129.98,34.48,,-0.9961274067010325
+Race/Ethnicity,NAEP - Science - 4,,2019,US,Hispanic,138.5,34.87,,-0.7345145493062224
+Race/Ethnicity,NAEP - Science - 4,,2019,US,Asian,168.04,37.21,,0.14602416319759967
+Race/Ethnicity,NAEP - Science - 4,,2019,US,American Indian/Alaska Native,141.33,35.27,,-0.6455755457012557
+Race/Ethnicity,NAEP - Science - 4,,2019,US,Native Hawaiian/Other Pacific Islander,141.9,37.08,,-0.611066436321802
+Race/Ethnicity,NAEP - Science - 4,,2019,US,Multiple Races/Ethnicities,158.8,34.6,,-0.12620173938038423
+Race/Ethnicity,NAEP - Science - 8,,2019,US,White,164.79,30.16,,0.0
+Race/Ethnicity,NAEP - Science - 8,,2019,US,Black,132.67,33.75,,-1.0035814193409807
+Race/Ethnicity,NAEP - Science - 8,,2019,US,Hispanic,140.85,34.07,,-0.7440686569978566
+Race/Ethnicity,NAEP - Science - 8,,2019,US,Asian,168.29,33.65,,0.10953696220549324
+Race/Ethnicity,NAEP - Science - 8,,2019,US,American Indian/Alaska Native,144.04,31.61,,-0.6716621451260115
+Race/Ethnicity,NAEP - Science - 8,,2019,US,Native Hawaiian/Other Pacific Islander,138.55,36.02,,-0.7898982802621778
+Race/Ethnicity,NAEP - Science - 8,,2019,US,Multiple Races/Ethnicities,158.71,32.67,,-0.19338386687795023
+Race/Ethnicity,NAEP - Science - 12,,2019,US,White,160.59,33.75,,0.0
+Race/Ethnicity,NAEP - Science - 12,,2019,US,Black,125.43,34.26,,-1.0339365227899757
+Race/Ethnicity,NAEP - Science - 12,,2019,US,Hispanic,135.74,34.55,,-0.7276221237598192
+Race/Ethnicity,NAEP - Science - 12,,2019,US,Asian,165.61,39.62,,0.13640481203707155
+Race/Ethnicity,NAEP - Science - 12,,2019,US,American Indian/Alaska Native,141.7,33.45,,-0.5621967787324192
+Race/Ethnicity,NAEP - Science - 12,,2019,US,Native Hawaiian/Other Pacific Islander,136.74,36.32,,-0.6802903981038746
+Race/Ethnicity,NAEP - Science - 12,,2019,US,Multiple Races/Ethnicities,155.75,35.81,,-0.13909945308573413
+Race/Ethnicity,NAEP - Reading - 4,,2019,US,White,230.23,35.25,,0.0
+Race/Ethnicity,NAEP - Reading - 4,,2019,US,Black,203.53,37.44,,-0.7342933152897667
+Race/Ethnicity,NAEP - Reading - 4,,2019,US,Hispanic,208.82,38.07,,-0.5835837902033942
+Race/Ethnicity,NAEP - Reading - 4,,2019,US,Asian,239.21,36.93,,0.24875501827007077
+Race/Ethnicity,NAEP - Reading - 4,,2019,US,American Indian/Alaska Native,204.41,38.62,,-0.6983395957908909
+Race/Ethnicity,NAEP - Reading - 4,,2019,US,Native Hawaiian/Other Pacific Islander,211.68,37.25,,-0.5115295382613338
+Race/Ethnicity,NAEP - Reading - 4,,2019,US,Multiple Races/Ethnicities,225.69,37.45,,-0.12483968847252647
+Race/Ethnicity,NAEP - Reading - 8,,2019,US,White,272.26,34.38,,0.0
+Race/Ethnicity,NAEP - Reading - 8,,2019,US,Black,244.37,36.04,,-0.7918845294409678
+Race/Ethnicity,NAEP - Reading - 8,,2019,US,Hispanic,251.81,37.22,,-0.5707802234195616
+Race/Ethnicity,NAEP - Reading - 8,,2019,US,Asian,283.56,37.11,,0.315897883233635
+Race/Ethnicity,NAEP - Reading - 8,,2019,US,American Indian/Alaska Native,248.0,37.08,,-0.6784971153477433
+Race/Ethnicity,NAEP - Reading - 8,,2019,US,Native Hawaiian/Other Pacific Islander,252.2,39.65,,-0.5405744683634974
+Race/Ethnicity,NAEP - Reading - 8,,2019,US,Multiple Races/Ethnicities,266.99,37.55,,-0.14638925881591647
+Race/Ethnicity,NAEP - Reading - 12,,2019,US,White,295.0,40.1,,0.0
+Race/Ethnicity,NAEP - Reading - 12,,2019,US,Black,263.48,40.58,,-0.7813446251445734
+Race/Ethnicity,NAEP - Reading - 12,,2019,US,Hispanic,273.96,40.15,,-0.5243612689393123
+Race/Ethnicity,NAEP - Reading - 12,,2019,US,Asian,299.4,42.59,,0.10637335789074362
+Race/Ethnicity,NAEP - Reading - 12,,2019,US,American Indian/Alaska Native,271.51,40.46,,-0.5831620025405101
+Race/Ethnicity,NAEP - Reading - 12,,2019,US,Native Hawaiian/Other Pacific Islander,277.79,37.68,,-0.44231617457010153
+Race/Ethnicity,NAEP - Reading - 12,,2019,US,Multiple Races/Ethnicities,295.11,41.54,,0.002694338381768701
+Gender,NAEP - Reading - 4,,2019,US,Male,216.83,39.46,,-0.19390586208949825
+Gender,NAEP - Reading - 4,,2019,US,Female,224.26,37.14,,0.0
+Gender,NAEP - Reading - 8,,2019,US,Male,257.69,38.33,,-0.2985457141240658
+Gender,NAEP - Reading - 8,,2019,US,Female,268.83,36.27,,0.0
+Gender,NAEP - Reading - 12,,2019,US,Male,279.28,43.41,,-0.2991292393122899
+Gender,NAEP - Reading - 12,,2019,US,Female,291.79,40.17,,0.0
+Gender,NAEP - Science - 4,,2019,US,Male,151.36,37.26,,0.0
+Gender,NAEP - Science - 4,,2019,US,Female,151.36,35.21,,0.0
+Gender,NAEP - Science - 8,,2019,US,Male,154.22,35.86,,0.02763487731834347
+Gender,NAEP - Science - 8,,2019,US,Female,153.26,33.58,,0.0
+Gender,NAEP - Science - 12,,2019,US,Male,151.45,38.51,,0.10149735937570652
+Gender,NAEP - Science - 12,,2019,US,Female,147.67,35.93,,0.0
+National School Lunch Program eligibility,NAEP - Science - 4,,2019,US,Eligible,137.23,34.99,,
+National School Lunch Program eligibility,NAEP - Science - 4,,2019,US,Not eligible,166.09,31.72,,
+National School Lunch Program eligibility,NAEP - Science - 4,,2019,US,Information not available,162.91,30.61,,
+National School Lunch Program eligibility,NAEP - Science - 8,,2019,US,Eligible,140.33,34.13,,
+National School Lunch Program eligibility,NAEP - Science - 8,,2019,US,Not eligible,165.97,30.79,,
+National School Lunch Program eligibility,NAEP - Science - 8,,2019,US,Information not available,164.95,29.79,,
+National School Lunch Program eligibility,NAEP - Science - 12,,2019,US,Eligible,135.15,35.04,,
+National School Lunch Program eligibility,NAEP - Science - 12,,2019,US,Not eligible,159.64,35.61,,
+National School Lunch Program eligibility,NAEP - Science - 12,,2019,US,Information not available,156.13,35.37,,
+National School Lunch Program eligibility,NAEP - Reading - 4,,2019,US,Eligible,207.01,37.79,,
+National School Lunch Program eligibility,NAEP - Reading - 4,,2019,US,Not eligible,234.85,34.04,,
+National School Lunch Program eligibility,NAEP - Reading - 4,,2019,US,Information not available,231.84,33.85,,
+National School Lunch Program eligibility,NAEP - Reading - 8,,2019,US,Eligible,249.58,36.76,,
+National School Lunch Program eligibility,NAEP - Reading - 8,,2019,US,Not eligible,274.94,34.5,,
+National School Lunch Program eligibility,NAEP - Reading - 8,,2019,US,Information not available,276.08,33.97,,
+National School Lunch Program eligibility,NAEP - Reading - 12,,2019,US,Eligible,271.13,40.51,,
+National School Lunch Program eligibility,NAEP - Reading - 12,,2019,US,Not eligible,294.34,41.06,,
+National School Lunch Program eligibility,NAEP - Reading - 12,,2019,US,Information not available,299.38,38.09,,
+Parent Education,NAEP - Science - 8,,2005,US,Did not finish high school,127.9,32.11,,
+Parent Education,NAEP - Science - 8,,2005,US,Graduated high school,137.85,32.97,,
+Parent Education,NAEP - Science - 8,,2005,US,Some education after high school,151.09,31.14,,
+Parent Education,NAEP - Science - 8,,2005,US,Graduated college,159.33,33.48,,
+Parent Education,NAEP - Science - 8,,2005,US,Unknown,129.58,34.75,,
+Parent Education,NAEP - Reading - 8,,2022,US,Did not finish high school,246.462641,36.357473,,
+Parent Education,NAEP - Reading - 8,,2022,US,Graduated college,269.402479,36.367169,,
+Parent Education,NAEP - Reading - 8,,2022,US,Graduated high school,246.316444,35.823315,,
+Parent Education,NAEP - Reading - 8,,2022,US,Some education after high school,259.211452,34.636581,,
+Parent Education,NAEP - Reading - 8,,2022,US,Unknown,242.285705,37.693674,,
+Parent Education,NAEP - Science - 12,,2005,US,Did not finish high school,125.33,30.49,,
+Parent Education,NAEP - Science - 12,,2005,US,Graduated high school,135.61,33.25,,
+Parent Education,NAEP - Science - 12,,2005,US,Some education after high school,147.69,30.07,,
+Parent Education,NAEP - Science - 12,,2005,US,Graduated college,157.1,31.97,,
+Parent Education,NAEP - Science - 12,,2005,US,Unknown,118.61,33.47,,
+Status as English learner,NAEP - Reading - 4,,2022,US,ELL,190.09,37.82,,
+Status as English learner,NAEP - Reading - 4,,2022,US,Not ELL,221.62,39.01,,
+Status as English learner,NAEP - Reading - 8,,2022,US,ELL,225.31,34.66,,
+Status as English learner,NAEP - Reading - 8,,2022,US,Not ELL,263.84,36.4,,
+Status as English learner,NAEP - Reading - 12,,2019,US,ELL,234.97,37.23,,
+Status as English learner,NAEP - Reading - 12,,2019,US,Not ELL,287.74,41.09,,
+Status as English learner,NAEP - Science - 4,,2019,US,ELL,234.97,37.23,,
+Status as English learner,NAEP - Science - 4,,2019,US,Not ELL,287.74,41.09,,
+Status as English learner,NAEP - Science - 8,,2019,US,ELL,121.52,34.7,,
+Status as English learner,NAEP - Science - 8,,2019,US,Not ELL,155.38,34.56,,
+Status as English learner,NAEP - Science - 12,,2019,US,ELL,98.98,32.36,,
+Status as English learner,NAEP - Science - 12,,2019,US,Not ELL,151.93,35.81,,
+UTOL4 – School location,NAEP - Reading - 4,,2022,US,City,213.11,42.12,,
+UTOL4 – School location,NAEP - Reading - 4,,2022,US,Suburb,221.96,39.52,,
+UTOL4 – School location,NAEP - Reading - 4,,2022,US,Town,211.69,39.49,,
+UTOL4 – School location,NAEP - Reading - 4,,2022,US,Rural,218.35,38.16,,
+UTOL4 – School location,NAEP - Reading - 8,,2022,US,City,257.48,39.07,,
+UTOL4 – School location,NAEP - Reading - 8,,2022,US,Suburb,264.3,37.7,,
+UTOL4 – School location,NAEP - Reading - 8,,2022,US,Town,256.13,36.6,,
+UTOL4 – School location,NAEP - Reading - 8,,2022,US,Rural,259.81,36.33,,
+UTOL4 – School location,NAEP - Reading - 12,,2019,US,City,283.89,43.19,,
+UTOL4 – School location,NAEP - Reading - 12,,2019,US,Suburb,287.96,42.67,,
+UTOL4 – School location,NAEP - Reading - 12,,2019,US,Town,282.38,41.35,,
+UTOL4 – School location,NAEP - Reading - 12,,2019,US,Rural,284.51,40.4,,
+UTOL4 – School location,NAEP - Science - 4,,2019,US,City,144.31,37.61,,
+UTOL4 – School location,NAEP - Science - 4,,2019,US,Suburb,155.48,35.99,,
+UTOL4 – School location,NAEP - Science - 4,,2019,US,Town,150.62,34.45,,
+UTOL4 – School location,NAEP - Science - 4,,2019,US,Rural,154.26,33.82,,
+UTOL4 – School location,NAEP - Science - 8,,2019,US,City,144.31,37.61,,
+UTOL4 – School location,NAEP - Science - 8,,2019,US,Suburb,155.48,35.99,,
+UTOL4 – School location,NAEP - Science - 8,,2019,US,Town,150.62,34.45,,
+UTOL4 – School location,NAEP - Science - 8,,2019,US,Rural,154.26,33.82,,
+UTOL4 – School location,NAEP - Science - 12,,2019,US,City,147.3,37.0,,
+UTOL4 – School location,NAEP - Science - 12,,2019,US,Suburb,157.78,34.16,,
+UTOL4 – School location,NAEP - Science - 12,,2019,US,Town,152.99,32.94,,
+UTOL4 – School location,NAEP - Science - 12,,2019,US,Rural,155.9,31.71,,
+Receive Title I funding,NAEP - Reading - 4,,2022,US,No,234.04,35.64,,
+Receive Title I funding,NAEP - Reading - 4,,2022,US,"Yes, for students",219.51,38.75,,
+Receive Title I funding,NAEP - Reading - 4,,2022,US,"Yes, for school purp",207.77,40.14,,
+Receive Title I funding,NAEP - Reading - 8,,2022,US,No,267.93,36.63,,
+Receive Title I funding,NAEP - Reading - 8,,2022,US,"Yes, for students",261.41,37.59,,
+Receive Title I funding,NAEP - Reading - 8,,2022,US,"Yes, for school purp",251.21,37.46,,
+Receive Title I funding,NAEP - Reading - 12,,2019,US,No,291.4,41.26,,
+Receive Title I funding,NAEP - Reading - 12,,2019,US,"Yes, for students",287.02,42.96,,
+Receive Title I funding,NAEP - Reading - 12,,2019,US,"Yes, for school purp",272.4,41.52,,
+Receive Title I funding,NAEP - Science - 4,,2019,US,No,166.06,32.64,,
+Receive Title I funding,NAEP - Science - 4,,2019,US,"Yes, for students",151.71,35.19,,
+Receive Title I funding,NAEP - Science - 4,,2019,US,"Yes, for school purp",142.92,35.88,,
+Receive Title I funding,NAEP - Science - 8,,2019,US,No,166.06,32.64,,
+Receive Title I funding,NAEP - Science - 8,,2019,US,"Yes, for students",151.71,35.19,,
+Receive Title I funding,NAEP - Science - 8,,2019,US,"Yes, for school purp",142.92,35.88,,
+Receive Title I funding,NAEP - Science - 12,,2019,US,No,156.12,35.69,,
+Receive Title I funding,NAEP - Science - 12,,2019,US,"Yes, for students",152.95,37.66,,
+Receive Title I funding,NAEP - Science - 12,,2019,US,"Yes, for school purp",134.93,36.06,,
+Country,LSAT,NA,2023,US,US,151.73,10.62,85025.0,
+Gender,LSAT,NA,2023,US,Female,150.47,10.54,49489.0,0.0
+Race/Ethnicity,LSAT,NA,2023,US,White,154.15,9.54,42168.0,0.0
+Gender,LSAT,NA,2023,US,Male,153.39,10.46,32631.0,0.2780932201925703
+Region,LSAT,NA,2023,Regional,Northeast,152.17,11.09,13942.0,
+Region,LSAT,NA,2023,Regional,Southeast,149.86,10.22,12812.0,
+Region,LSAT,NA,2023,Regional,Far West,152.33,10.96,11937.0,
+Region,LSAT,NA,2023,Regional,Great Lakes,151.97,10.26,11078.0,
+Region,LSAT,NA,2023,Regional,Mid-South,152.36,10.76,10630.0,
+Region,LSAT,NA,2023,Regional,South Central,150.06,10.28,10475.0,
+Race/Ethnicity,LSAT,NA,2023,US,Black,143.64,9.78,10040.0,-1.0879077814013491
+Race/Ethnicity,LSAT,NA,2023,US,Multiple Races/Ethnicities,151.01,10.42,9843.0,-0.31432392054324126
+Race/Ethnicity,LSAT,NA,2023,US,Hispanic,146.75,9.8,9146.0,-0.7651842176036566
+Country,LSAT,NA,2023,US,Canada,152.75,9.76,7936.0,
+Race/Ethnicity,LSAT,NA,2023,US,Asian,155.01,10.96,7338.0,0.08370187448836534
+Race/Ethnicity,LSAT,NA,2023,US,No Response,154.13,10.15,5834.0,-0.002030513883152231
+Region,LSAT,NA,2023,Regional,Mountain West,152.88,9.72,4753.0,
+Region,LSAT,NA,2023,Regional,New England,153.48,10.85,4243.0,
+Region,LSAT,NA,2023,Regional,Midwest,152.2,9.73,2933.0,
+Region,LSAT,NA,2023,Regional,Northwest,153.73,10.67,2222.0,
+Gender,LSAT,NA,2023,US,No Response,153.61,11.0,1687.0,0.291484143626319
+Gender,LSAT,NA,2023,US,Another gender,155.74,10.08,1266.0,0.511027074513163
+Race/Ethnicity,LSAT,NA,2023,US,Puerto Rican,145.54,10.93,469.0,-0.8392982984428677
+Race/Ethnicity,LSAT,NA,2023,US,American Indian/Alaska Native,145.34,10.32,368.0,-0.8865269941086121
+Race/Ethnicity,LSAT,NA,2023,US,Native Hawaiian/Other Pacific Islander,146.68,10.22,89.0,-0.7556255815159502
+Race/Ethnicity,LSAT,NA,2023,US,Canadian Indigenous,147.5,3.3,10.0,-0.9316357415501945
+Citizenship Status,GRE - Analytical Writing,NA,2023,US,Non-U.S. Citizens,3.2,0.7,221404.0,
+Citizenship Status,GRE - Quantitative,NA,2023,US,Non-U.S. Citizens,161.5,8.4,221404.0,
+Citizenship Status,GRE - Verbal,NA,2023,US,Non-U.S. Citizens,151.0,8.1,221404.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,No Response,3.8,0.8,185398.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,No Response,161.0,9.3,185398.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,No Response,151.7,7.9,185398.0,
+Age Group,GRE - Analytical Writing,NA,2023,US,18-22,160.0,9.2,169330.0,
+Age Group,GRE - Quantitative,NA,2023,US,18-22,3.4,0.8,169330.0,
+Age Group,GRE - Verbal,NA,2023,US,18-22,151.6,7.6,169330.0,
+Gender,GRE - Analytical Writing,NA,2023,US,Male,3.4,0.8,168452.0,-0.1250000000000001
+Gender,GRE - Quantitative,NA,2023,US,Male,160.3,8.8,168452.0,0.46975777762570453
+Gender,GRE - Verbal,NA,2023,US,Male,151.7,8.0,168452.0,0.125
+Gender,GRE - Analytical Writing,NA,2023,US,Female,3.5,0.8,150098.0,0.0
+Gender,GRE - Quantitative,NA,2023,US,Female,155.8,10.3,150098.0,0.0
+Gender,GRE - Verbal,NA,2023,US,Female,150.7,8.0,150098.0,0.0
+Citizenship Status,GRE - Analytical Writing,NA,2023,US,U.S. Citizens,3.9,0.9,97676.0,
+Citizenship Status,GRE - Quantitative,NA,2023,US,U.S. Citizens,150.5,8.3,97676.0,
+Citizenship Status,GRE - Verbal,NA,2023,US,U.S. Citizens,151.8,7.8,97676.0,
+Age Group,GRE - Analytical Writing,NA,2023,US,23-25,155.6,9.1,77935.0,
+Age Group,GRE - Analytical Writing,NA,2023,US,23-25,3.3,0.7,77935.0,
+Age Group,GRE - Verbal,NA,2023,US,23-25,149.6,7.5,77935.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,Less than 1 Year,3.6,0.8,67971.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,Less than 1 Year,154.7,9.7,67971.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,Less than 1 Year,150.5,7.8,67971.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,White,3.9,0.8,49997.0,0.0
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,White,150.7,7.5,49997.0,0.0
+Race/Ethnicity,GRE - Verbal,NA,2023,US,White,152.5,7.4,49997.0,0.0
+Age Group,GRE - Quantitative,NA,2023,US,26-30,150.6,7.5,46123.0,
+Age Group,GRE - Verbal,NA,2023,US,26-30,160.0,9.1,46123.0,
+Age Group,GRE - Verbal,NA,2023,US,26-30,3.3,0.7,46123.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,1-2 Years,3.6,0.8,33957.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,1-2 Years,154.2,9.4,33957.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,1-2 Years,150.0,8.1,33957.0,
+Age Group,GRE - Quantitative,NA,2023,US,31-40,149.5,7.4,20251.0,
+Age Group,GRE - Quantitative,NA,2023,US,31-40,158.7,8.9,20251.0,
+Race/Ethnicity,GRE - Verbal,NA,2023,US,No Response,153.0,8.1,16517.0,0.06445043781814495
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,3-4 Years,3.6,0.9,14347.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,3-4 Years,153.9,8.9,14347.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,3-4 Years,150.7,8.7,14347.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,No Response,3.9,0.9,9944.0,0.0
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,5-7 Years,3.7,0.9,9333.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,5-7 Years,153.2,9.3,9333.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,5-7 Years,151.7,8.7,9333.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,Asian,4.0,0.8,9244.0,0.1250000000000001
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,Asian,154.3,8.6,9244.0,0.44616482603734803
+Race/Ethnicity,GRE - Verbal,NA,2023,US,Asian,152.7,8.0,9244.0,0.02595433458983818
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,Black,3.3,0.9,7522.0,-0.7046642634176442
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,Black,144.6,7.5,7522.0,-0.8133333333333326
+Race/Ethnicity,GRE - Verbal,NA,2023,US,Black,147.2,7.6,7522.0,-0.7066038602259214
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,No Response,152.3,8.1,6452.0,0.20497665120642633
+Gender,GRE - Analytical Writing,NA,2023,MBA Applicants,Male,3.8,0.9,6013.0,-0.1111111111111112
+Gender,GRE - Quantitative,NA,2023,MBA Applicants,Male,157.1,8.8,6013.0,0.3033516385516417
+Gender,GRE - Verbal,NA,2023,MBA Applicants,Male,154.0,8.2,6013.0,0.09756097560975749
+Age Group,GRE - Analytical Writing,NA,2023,US,Over 40,156.6,8.8,5638.0,
+Age Group,GRE - Quantitative,NA,2023,US,Over 40,148.5,7.3,5638.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,Hispanic,3.6,0.9,5592.0,-0.3523321317088219
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,Hispanic,147.3,7.7,5592.0,-0.44732969958970475
+Race/Ethnicity,GRE - Verbal,NA,2023,US,Hispanic,149.2,7.6,5592.0,-0.43996089410293276
+Gender,GRE - Analytical Writing,NA,2023,MBA Applicants,Female,3.9,0.9,4641.0,0.0
+Gender,GRE - Quantitative,NA,2023,MBA Applicants,Female,154.4,9.0,4641.0,0.0
+Gender,GRE - Verbal,NA,2023,MBA Applicants,Female,153.2,8.2,4641.0,0.0
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,8-10 Years,3.6,0.9,4098.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,8-10 Years,151.8,9.1,4098.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,8-10 Years,151.3,8.9,4098.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,Another Race/Ethnicity,3.9,0.9,3125.0,0.0
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,Another Race/Ethnicity,150.7,8.7,3125.0,0.0
+Race/Ethnicity,GRE - Verbal,NA,2023,US,Another Race/Ethnicity,152.7,8.3,3125.0,0.02543594827439699
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,MBA Applicants,White,4.2,0.9,2424.0,0.0
+Race/Ethnicity,GRE - Quantitative,NA,2023,MBA Applicants,White,154.0,7.6,2424.0,0.0
+Race/Ethnicity,GRE - Verbal,NA,2023,MBA Applicants,White,155.9,7.4,2424.0,0.0
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,5-7 Years,4.0,0.9,2305.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,5-7 Years,156.2,8.1,2305.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,5-7 Years,155.0,7.5,2305.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,3-4 Years,4.0,0.9,2145.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,3-4 Years,156.6,8.3,2145.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,3-4 Years,154.7,7.9,2145.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,Less than 1 Year,3.8,0.9,1907.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,Less than 1 Year,154.8,8.3,1907.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,Less than 1 Year,151.5,8.3,1907.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,11-14 Years,3.7,0.9,1624.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,11-14 Years,151.6,9.0,1624.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,11-14 Years,151.3,8.9,1624.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,1-2 Years,3.8,0.9,1476.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,1-2 Years,155.7,9.5,1476.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,1-2 Years,152.8,8.6,1476.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,15-19 Years,3.5,0.9,1126.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,15-19 Years,149.4,9.4,1126.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,15-19 Years,150.6,9.3,1126.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,20-29 Years,3.5,0.9,844.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,20-29 Years,147.7,9.4,844.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,20-29 Years,151.1,8.9,844.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,8-10 Years,3.8,0.9,814.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,8-10 Years,154.9,8.5,814.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,8-10 Years,153.7,8.1,814.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,MBA Applicants,Asian,4.4,0.8,660.0,0.23488808780588158
+Race/Ethnicity,GRE - Quantitative,NA,2023,MBA Applicants,Asian,157.6,7.6,660.0,0.47368421052631504
+Race/Ethnicity,GRE - Verbal,NA,2023,MBA Applicants,Asian,156.5,7.2,660.0,0.08218407016184828
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,MBA Applicants,Black,3.7,0.9,657.0,-0.5555555555555556
+Race/Ethnicity,GRE - Quantitative,NA,2023,MBA Applicants,Black,148.9,8.1,657.0,-0.6493523125957034
+Race/Ethnicity,GRE - Verbal,NA,2023,MBA Applicants,Black,151.2,8.0,657.0,-0.6099268628612341
+Gender,GRE - Analytical Writing,NA,2023,US,Another gender,3.9,0.9,551.0,0.46977617561176266
+Gender,GRE - Quantitative,NA,2023,US,Another gender,154.1,9.7,551.0,-0.16992355159880404
+Gender,GRE - Verbal,NA,2023,US,Another gender,156.1,7.9,551.0,0.6792318495088646
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,American Indian/Alaska Native,3.6,0.9,513.0,-0.3523321317088219
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,American Indian/Alaska Native,147.4,7.4,513.0,-0.4429430445012197
+Race/Ethnicity,GRE - Verbal,NA,2023,US,American Indian/Alaska Native,149.6,7.1,513.0,-0.39991441510950887
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,MBA Applicants,No Response,4.2,0.9,424.0,0.0
+Race/Ethnicity,GRE - Quantitative,NA,2023,MBA Applicants,No Response,155.5,7.4,424.0,0.19998222459224146
+Race/Ethnicity,GRE - Verbal,NA,2023,MBA Applicants,No Response,156.8,7.7,424.0,0.11918177864608855
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,US,Over 30 Years,3.4,0.8,403.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,US,Over 30 Years,147.9,9.6,403.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,US,Over 30 Years,148.4,8.7,403.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,MBA Applicants,Hispanic,4.0,0.9,299.0,-0.2222222222222224
+Race/Ethnicity,GRE - Quantitative,NA,2023,MBA Applicants,Hispanic,151.2,7.6,299.0,-0.3684210526315805
+Race/Ethnicity,GRE - Verbal,NA,2023,MBA Applicants,Hispanic,153.7,8.0,299.0,-0.2854976804882384
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,US,Native Hawaiian/Other Pacific Islander,3.8,0.9,273.0,-0.11744404390294079
+Race/Ethnicity,GRE - Quantitative,NA,2023,US,Native Hawaiian/Other Pacific Islander,148.2,7.6,273.0,-0.33111856684056856
+Race/Ethnicity,GRE - Verbal,NA,2023,US,Native Hawaiian/Other Pacific Islander,149.4,6.9,273.0,-0.43330164721106507
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,11-14 Years,3.6,0.9,225.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,11-14 Years,153.6,9.0,225.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,11-14 Years,153.0,8.9,225.0,
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,MBA Applicants,Another Race/Ethnicity,4.3,0.9,196.0,0.11111111111111072
+Race/Ethnicity,GRE - Quantitative,NA,2023,MBA Applicants,Another Race/Ethnicity,154.2,8.4,196.0,0.024968808471944697
+Race/Ethnicity,GRE - Verbal,NA,2023,MBA Applicants,Another Race/Ethnicity,156.2,8.2,196.0,0.038411063979866614
+Race/Ethnicity,GRE - Analytical Writing,NA,2023,MBA Applicants,Mexican,3.9,0.9,191.0,-0.33333333333333365
+Race/Ethnicity,GRE - Quantitative,NA,2023,MBA Applicants,Mexican,150.0,8.6,191.0,-0.4928890024967746
+Race/Ethnicity,GRE - Verbal,NA,2023,MBA Applicants,Mexican,151.5,7.6,191.0,-0.5866145254705758
+Age Group,GRE - Analytical Writing,NA,2023,US,Under 18,164.0,9.2,166.0,
+Age Group,GRE - Verbal,NA,2023,US,Under 18,154.8,7.6,166.0,
+Age Group,GRE - Verbal,NA,2023,US,Under 18,3.5,0.9,166.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,15-19 Years,3.6,0.8,74.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,15-19 Years,150.5,9.6,74.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,15-19 Years,149.8,8.9,74.0,
+Years of Full-time Work Experience,GRE - Analytical Writing,NA,2023,MBA Applicants,20-29 Years,3.5,1.1,38.0,
+Years of Full-time Work Experience,GRE - Quantitative,NA,2023,MBA Applicants,20-29 Years,151.3,10.3,38.0,
+Years of Full-time Work Experience,GRE - Verbal,NA,2023,MBA Applicants,20-29 Years,150.9,9.7,38.0,
+Gender,GMAT - Total Score,NA,2017,Business,Female,643.84,86.72,1029.0,0.0
+Gender,GMAT - Total Score,NA,2017,Business,Male,652.71,85.93,1848.0,0.10275015516315819
+Race/Ethnicity,GMAT - Total Score,NA,2017,Business,White,661.26,75.1,936.0,0.0
+Race/Ethnicity,GMAT - Total Score,NA,2017,Business,Asian,663.6,81.44,166.0,0.029872022315205773
+Race/Ethnicity,GMAT - Total Score,NA,2017,Business,Black,608.43,90.34,89.0,-0.6359679176917021
+Race/Ethnicity,GMAT - Total Score,NA,2017,Business,Other,647.86,77.35,136.0,-0.17577619944415301
+Language,GMAT - Total Score,NA,2017,Business,English,661.5,76.9,1315.0,
+Language,GMAT - Total Score,NA,2017,Business,Other,647.06,93.25,809.0,
+Citizenship,GMAT - Total Score,NA,2017,Business,UCAP,660.64,83.35,1843.0,
+Citizenship,GMAT - Total Score,NA,2017,Business,ESA,665.11,80.74,406.0,
+Citizenship,GMAT - Total Score,NA,2017,Business,CSA,661.25,87.02,169.0,
+Citizenship,GMAT - Total Score,NA,2017,Business,WE,630.52,113.62,105.0,
+Citizenship,GMAT - Total Score,NA,2017,Business,MCLA,638.03,98.52,126.0,
+Citizenship,GMAT - Total Score,NA,2017,Business,AEEME,622.09,112.79,88.0,
+Age,GMAT - Total Score,NA,2017,Business,≤ 25,664.19,69.63,552.0,
+Age,GMAT - Total Score,NA,2017,Business,26–30,681.05,64.94,1296.0,
+Age,GMAT - Total Score,NA,2017,Business,≥ 31,637.54,90.58,385.0,
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,Black,550.0,86.13,2083.0,-1.1726460002322072
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,Asian,679.0,86.13,7554.0,0.32508998026239405
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,Native Hawaiian/Other Pacific Islander,638.0,86.13,166.0,-0.15093463369325438
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,Hispanic,588.0,86.13,2834.0,-0.7314524555903866
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,Middle East/North African American,657.0,86.13,481.0,0.06966213862765587
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,American Indian/Alaska Native,577.0,86.13,241.0,-0.8591663764077557
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,White,651.0,86.13,18961.0,0.0
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,Another Race/Ethnicity,658.0,86.13,644.0,0.08127249506559851
+Race/Ethnicity,GMAT - Total Score,NA,2023,US,No Response,236.0,86.13,664.0,-4.818297921746198
+Gender,Casper,NA,2024,US,Female,0.075,0.975,35311.0,0.0
+Gender,Casper,NA,2024,US,Male,-0.145,1.012,16930.0,-0.22140097451953056
+Gender,Casper,NA,2024,US,Another gender,0.113,0.979,466.0,0.038894493735752426
+Race/Ethnicity,Casper,NA,2024,US,Asian,0.064,1.015,11945.0,-0.05721878018811278
+Race/Ethnicity,Casper,NA,2024,US,Black,-0.475,0.999,4210.0,-0.6131281084241169
+Race/Ethnicity,Casper,NA,2024,US,Hispanic,-0.257,0.978,6237.0,-0.39283996274109273
+Race/Ethnicity,Casper,NA,2024,US,American Indian/Alaska Native,-0.198,0.92,216.0,-0.3417299900689962
+Race/Ethnicity,Casper,NA,2024,US,Middle East/North African American,-0.046,1.045,2448.0,-0.1669414498500443
+Race/Ethnicity,Casper,NA,2024,US,Another Race/Ethnicity,0.025,1.046,1437.0,-0.0954883105676704
+Race/Ethnicity,Casper,NA,2024,US,White,0.12,0.941,26260.0,0.0
+Parent Education,Casper,NA,2024,US,"Associate degree (e.g. AA, AS)",-0.128,0.958,2269.0,
+Parent Education,Casper,NA,2024,US,"Bachelor’s degree (e.g. BA, BS)",0.019,0.978,12344.0,
+Parent Education,Casper,NA,2024,US,"Doctorate (e.g. PhD, EdD)",0.159,0.992,3553.0,
+Parent Education,Casper,NA,2024,US,Less than a high school diploma,-0.361,1.025,1619.0,
+Parent Education,Casper,NA,2024,US,"Master’s degree (e.g. MA, MS, MEd)",0.125,0.957,11114.0,
+Parent Education,Casper,NA,2024,US,"Professional degree (e.g. MD, DDS, DVM)",0.13,0.984,5772.0,
+Parent Education,Casper,NA,2024,US,"Some college, no degree",-0.17,0.976,2587.0,
+Age,Casper,NA,2024,US,Under 20,0.104,0.975,1322.0,
+Age,Casper,NA,2024,US,20-22,0.145,0.949,18880.0,
+Age,Casper,NA,2024,US,23-25,0.0,0.966,17090.0,
+Age,Casper,NA,2024,US,26-28,-0.046,1.007,7343.0,
+Age,Casper,NA,2024,US,Over 28,-0.46,1.053,3985.0,
+Gender,Casper,NA,2024,CA,Female,0.047,0.971,28060.0,0.0
+Gender,Casper,NA,2024,CA,Male,-0.062,1.009,9246.0,-0.11008073896124829
+Gender,Casper,NA,2024,CA,Another gender,0.015,0.991,401.0,-0.032618081092553035
+Race/Ethnicity,Casper,NA,2024,CA,Asian,0.004,1.003,9734.0,-0.15373264077885204
+Race/Ethnicity,Casper,NA,2024,CA,Black,-0.603,1.026,3090.0,-0.7786603705027099
+Race/Ethnicity,Casper,NA,2024,CA,Hispanic,-0.093,0.997,734.0,-0.25601666522513894
+Race/Ethnicity,Casper,NA,2024,CA,American Indian/Alaska Native,-0.167,0.904,754.0,-0.3511867075464346
+Race/Ethnicity,Casper,NA,2024,CA,Middle East/North African American,-0.051,1.053,3169.0,-0.20555295896953543
+Race/Ethnicity,Casper,NA,2024,CA,Another Race/Ethnicity,0.101,0.973,1720.0,-0.0531587414872382
+Race/Ethnicity,Casper,NA,2024,CA,White,0.151,0.907,18960.0,0.0
+Parent Education,Casper,NA,2024,CA,"Associate degree (e.g. AA, AS)",-0.028,0.949,2523.0,
+Parent Education,Casper,NA,2024,CA,"Bachelor’s degree (e.g. BA, BS)",0.079,0.95,11285.0,
+Parent Education,Casper,NA,2024,CA,"Doctorate (e.g. PhD, EdD)",0.15,0.986,1873.0,
+Parent Education,Casper,NA,2024,CA,High school degree or equivalent (e.g. GED),0.025,1.021,49.0,
+Parent Education,Casper,NA,2024,CA,Less than a high school diploma,-0.243,1.088,1192.0,
+Parent Education,Casper,NA,2024,CA,"Master’s degree (e.g. MA, MS, MEd)",0.123,0.959,5806.0,
+Parent Education,Casper,NA,2024,CA,"Professional degree (e.g. MD, DDS, DVM)",0.134,0.993,2480.0,
+Parent Education,Casper,NA,2024,CA,"Some college, no degree",-0.041,0.956,3768.0,
+Age,Casper,NA,2024,CA,Under 20,0.049,0.947,10103.0,
+Age,Casper,NA,2024,CA,20-22,0.192,0.916,9247.0,
+Age,Casper,NA,2024,CA,23-25,0.091,0.953,6986.0,
+Age,Casper,NA,2024,CA,26-28,0.04,0.961,5326.0,
+Age,Casper,NA,2024,CA,Over 28,-0.488,1.062,3994.0,
+Gender,Casper,NA,2022,CA,Female,0.036,0.978,33051.0,0.0
+Gender,Casper,NA,2022,CA,Male,-0.056,1.017,11755.0,-0.09221295814575212
+Gender,Casper,NA,2022,CA,Another gender,0.204,0.964,353.0,0.17301301198853075
+Race/Ethnicity,Casper,NA,2022,CA,Asian,-0.001,1.022,10792.0,-0.15946267505098347
+Race/Ethnicity,Casper,NA,2022,CA,Black,-0.611,1.035,2810.0,-0.7854902333017381
+Race/Ethnicity,Casper,NA,2022,CA,Hispanic,-0.27,0.975,803.0,-0.44945846834115444
+Race/Ethnicity,Casper,NA,2022,CA,American Indian/Alaska Native,-0.162,0.916,835.0,-0.34576866704687614
+Race/Ethnicity,Casper,NA,2022,CA,Middle East/North African American,-0.113,1.079,3382.0,-0.2669979677377749
+Race/Ethnicity,Casper,NA,2022,CA,Another Race/Ethnicity,-0.027,1.008,1833.0,-0.18782125834351734
+Race/Ethnicity,Casper,NA,2022,CA,White,0.153,0.906,23020.0,0.0
+Parent Education,Casper,NA,2022,CA,"Associate degree (e.g. AA, AS)",0.021,0.947,3042.0,
+Parent Education,Casper,NA,2022,CA,"Bachelor’s degree (e.g. BA, BS)",0.071,0.961,14033.0,
+Parent Education,Casper,NA,2022,CA,"Doctorate (e.g. PhD, EdD)",0.117,0.995,2209.0,
+Parent Education,Casper,NA,2022,CA,Less than a high school diploma,-0.274,1.085,1332.0,
+Parent Education,Casper,NA,2022,CA,"Master’s degree (e.g. MA, MS, MEd)",0.129,0.963,6405.0,
+Parent Education,Casper,NA,2022,CA,"Professional degree (e.g. MD, DDS, DVM)",0.063,1.002,2854.0,
+Parent Education,Casper,NA,2022,CA,"Some college, no degree",-0.036,0.957,4929.0,
+Age,Casper,NA,2022,CA,Under 20,0.008,0.937,11307.0,
+Age,Casper,NA,2022,CA,20-22,0.21,0.929,10035.0,
+Age,Casper,NA,2022,CA,23-25,0.148,0.947,7829.0,
+Age,Casper,NA,2022,CA,26-28,0.072,0.947,6339.0,
+Age,Casper,NA,2022,CA,Over 28,-0.509,1.05,4986.0,
+Gender,Casper,NA,2022,US,Female,0.066,0.98,46463.0,0.0
+Gender,Casper,NA,2022,US,Male,-0.125,1.013,24912.0,-0.19164457857350684
+Gender,Casper,NA,2022,US,Another gender,0.164,0.978,463.0,0.10010209282466698
+Race/Ethnicity,Casper,NA,2022,US,Asian,0.1,1.011,14920.0,-0.021598212623512313
+Race/Ethnicity,Casper,NA,2022,US,Black,-0.565,1.01,5676.0,-0.7059189884066184
+Race/Ethnicity,Casper,NA,2022,US,Hispanic,-0.275,0.987,7478.0,-0.41254554994269527
+Race/Ethnicity,Casper,NA,2022,US,American Indian/Alaska Native,-0.295,0.98,289.0,-0.4350093847168289
+Race/Ethnicity,Casper,NA,2022,US,Middle East/North African American,-0.105,1.058,3083.0,-0.22668175048670838
+Race/Ethnicity,Casper,NA,2022,US,Another Race/Ethnicity,0.054,1.031,1720.0,-0.06817621531455373
+Race/Ethnicity,Casper,NA,2022,US,White,0.121,0.932,35897.0,0.0
+Parent Education,Casper,NA,2022,US,"Associate degree (e.g. AA, AS)",-0.134,0.981,3707.0,
+Parent Education,Casper,NA,2022,US,"Bachelor’s degree (e.g. BA, BS)",0.019,0.973,17435.0,
+Parent Education,Casper,NA,2022,US,"Doctorate (e.g. PhD, EdD)",0.148,0.991,5020.0,
+Parent Education,Casper,NA,2022,US,Less than a high school diploma,-0.436,1.038,2040.0,
+Parent Education,Casper,NA,2022,US,"Master’s degree (e.g. MA, MS, MEd)",0.098,0.963,14985.0,
+Parent Education,Casper,NA,2022,US,"Professional degree (e.g. MD, DDS, DVM)",0.142,0.973,8274.0,
+Parent Education,Casper,NA,2022,US,"Some college, no degree",-0.147,1.001,3803.0,
+Age,Casper,NA,2022,US,Under 20,0.126,0.938,1129.0,
+Age,Casper,NA,2022,US,20-22,0.137,0.944,25530.0,
+Age,Casper,NA,2022,US,23-25,-0.012,0.98,21227.0,
+Age,Casper,NA,2022,US,26-28,-0.041,0.992,10152.0,
+Age,Casper,NA,2022,US,Over 28,-0.418,1.115,5211.0,
+Race/Ethnicity,MCAT CPBS,NA,2023,US,American Indian/Alaska Native,123.6,2.7,90.0,-1.111111111111111
+Race/Ethnicity,MCAT CPBS,NA,2023,US,Asian,127.4,2.8,12600.0,0.2908610186802435
+Race/Ethnicity,MCAT CPBS,NA,2023,US,Black,124.0,2.9,4672.0,-0.9279797933227224
+Race/Ethnicity,MCAT CPBS,NA,2023,US,Hispanic,124.8,3.0,3177.0,-0.6307059974731631
+Race/Ethnicity,MCAT CPBS,NA,2023,US,Native Hawaiian/Other Pacific Islander,125.1,3.1,57.0,-0.5160156871153361
+Race/Ethnicity,MCAT CPBS,NA,2023,US,White,126.6,2.7,21131.0,0.0
+Race/Ethnicity,MCAT CPBS,NA,2023,US,Another Race/Ethnicity,126.2,3.0,1263.0,-0.1401568883273668
+Race/Ethnicity,MCAT CPBS,NA,2023,US,Multiple Races/Ethnicities,125.9,3.0,6009.0,-0.24527455457289316
+Race/Ethnicity,MCAT CPBS,NA,2023,US,Unknown  Race/Ethnicity,126.8,2.8,1692.0,0.07271525467006087
+Race/Ethnicity,MCAT CARS,NA,2023,US,American Indian/Alaska Native,123.8,2.9,90.0,-0.9603319116990563
+Race/Ethnicity,MCAT CARS,NA,2023,US,Asian,126.2,2.7,12600.0,-0.07686624420240988
+Race/Ethnicity,MCAT CARS,NA,2023,US,Black,123.8,2.7,4672.0,-0.9992611746313175
+Race/Ethnicity,MCAT CARS,NA,2023,US,Hispanic,124.2,2.8,3177.0,-0.8288619096656191
+Race/Ethnicity,MCAT CARS,NA,2023,US,Native Hawaiian/Other Pacific Islander,124.7,2.5,57.0,-0.6800000000000012
+Race/Ethnicity,MCAT CARS,NA,2023,US,White,126.4,2.5,21131.0,0.0
+Race/Ethnicity,MCAT CARS,NA,2023,US,Another Race/Ethnicity,125.2,2.7,1263.0,-0.4611974652144538
+Race/Ethnicity,MCAT CARS,NA,2023,US,Multiple Races/Ethnicities,125.6,2.8,6009.0,-0.30140433078750173
+Race/Ethnicity,MCAT CARS,NA,2023,US,Unknown  Race/Ethnicity,126.5,2.7,1692.0,0.038433122101202206
+Race/Ethnicity,MCAT BBLS,NA,2023,US,American Indian/Alaska Native,123.9,2.6,90.0,-1.19230769230769
+Race/Ethnicity,MCAT BBLS,NA,2023,US,Asian,127.4,2.7,12600.0,0.15091653558091114
+Race/Ethnicity,MCAT BBLS,NA,2023,US,Black,124.3,2.9,4672.0,-0.9803608768776572
+Race/Ethnicity,MCAT BBLS,NA,2023,US,Hispanic,125.2,3.0,3177.0,-0.6412234498911857
+Race/Ethnicity,MCAT BBLS,NA,2023,US,Native Hawaiian/Other Pacific Islander,125.2,2.9,57.0,-0.6535739179184364
+Race/Ethnicity,MCAT BBLS,NA,2023,US,White,127.0,2.6,21131.0,0.0
+Race/Ethnicity,MCAT BBLS,NA,2023,US,Another Race/Ethnicity,126.4,3.0,1263.0,-0.21374114996372687
+Race/Ethnicity,MCAT BBLS,NA,2023,US,Multiple Races/Ethnicities,126.2,2.9,6009.0,-0.29047729685263785
+Race/Ethnicity,MCAT BBLS,NA,2023,US,Unknown  Race/Ethnicity,127.0,2.7,1692.0,0.0
+Race/Ethnicity,MCAT PSBB,NA,2023,US,American Indian/Alaska Native,125.0,2.9,90.0,-1.016670538984235
+Race/Ethnicity,MCAT PSBB,NA,2023,US,Asian,128.1,2.6,12600.0,0.11538461538461428
+Race/Ethnicity,MCAT PSBB,NA,2023,US,Black,125.4,3.0,4672.0,-0.8549645998549126
+Race/Ethnicity,MCAT PSBB,NA,2023,US,Hispanic,125.9,3.2,3177.0,-0.6516946235415306
+Race/Ethnicity,MCAT PSBB,NA,2023,US,Native Hawaiian/Other Pacific Islander,126.1,2.8,57.0,-0.6291982286679655
+Race/Ethnicity,MCAT PSBB,NA,2023,US,White,127.8,2.6,21131.0,0.0
+Race/Ethnicity,MCAT PSBB,NA,2023,US,Another Race/Ethnicity,127.3,2.9,1263.0,-0.1815483105328993
+Race/Ethnicity,MCAT PSBB,NA,2023,US,Multiple Races/Ethnicities,127.1,2.9,6009.0,-0.25416763474606
+Race/Ethnicity,MCAT PSBB,NA,2023,US,Unknown  Race/Ethnicity,127.9,2.6,1692.0,0.03846153846154174
+Race/Ethnicity,MCAT Total,NA,2023,US,American Indian/Alaska Native,496.3,9.7,90.0,-1.248158025582691
+Race/Ethnicity,MCAT Total,NA,2023,US,Asian,509.1,9.3,12600.0,0.14436426434143465
+Race/Ethnicity,MCAT Total,NA,2023,US,Black,497.5,10.0,4672.0,-1.0989519427760093
+Race/Ethnicity,MCAT Total,NA,2023,US,Hispanic,500.1,10.6,3177.0,-0.7940887697285394
+Race/Ethnicity,MCAT Total,NA,2023,US,Native Hawaiian/Other Pacific Islander,501.1,10.0,57.0,-0.7148522346212857
+Race/Ethnicity,MCAT Total,NA,2023,US,White,507.8,8.7,21131.0,0.0
+Race/Ethnicity,MCAT Total,NA,2023,US,Another Race/Ethnicity,505.1,10.0,1263.0,-0.28807478111603974
+Race/Ethnicity,MCAT Total,NA,2023,US,Multiple Races/Ethnicities,504.9,10.1,6009.0,-0.30765875753194866
+Race/Ethnicity,MCAT Total,NA,2023,US,Unknown  Race/Ethnicity,508.2,9.1,1692.0,0.044932476504135885
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,American Indian/Alaska Native,3.21,0.58,90.0,-0.8286707904650416
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,Asian,3.62,0.39,12600.0,0.026645358899248333
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,Black,3.21,0.5,4672.0,-0.9181462976097771
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,Hispanic,3.37,0.46,3177.0,-0.5810610014929902
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,Native Hawaiian/Other Pacific Islander,3.27,0.54,57.0,-0.7408831771886949
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,White,3.61,0.36,21131.0,0.0
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,Another Race/Ethnicity,3.52,0.43,1263.0,-0.22695888143730986
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,Multiple Races/Ethnicities,3.48,0.44,6009.0,-0.3233870868182462
+Race/Ethnicity,AAMC - GPA Science,NA,2023,US,Unknown  Race/Ethnicity,3.57,0.4,1692.0,-0.10511766624552742
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,American Indian/Alaska Native,3.63,0.34,90.0,-0.6116648994275269
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,Asian,3.81,0.24,12600.0,0.0
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,Black,3.62,0.34,4672.0,-0.6456462827290553
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,Hispanic,3.69,0.31,3177.0,-0.43287181602485225
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,Native Hawaiian/Other Pacific Islander,3.71,0.27,57.0,-0.391480146343136
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,White,3.81,0.24,21131.0,0.0
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,Another Race/Ethnicity,3.78,0.27,1263.0,-0.11744404390294166
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,Multiple Races/Ethnicities,3.75,0.29,6009.0,-0.22541422702960354
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,US,Unknown  Race/Ethnicity,3.78,0.27,1692.0,-0.11744404390294166
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,American Indian/Alaska Native,3.42,0.43,90.0,-0.7716983996699568
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,Asian,3.7,0.31,12600.0,0.0
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,Black,3.39,0.4,4672.0,-0.897890891863413
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,Hispanic,3.5,0.37,3177.0,-0.6095691487793008
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,Native Hawaiian/Other Pacific Islander,3.46,0.39,57.0,-0.7069533791278634
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,White,3.7,0.28,21131.0,0.0
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,Another Race/Ethnicity,3.63,0.33,1263.0,-0.22874107044676115
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,Multiple Races/Ethnicities,3.6,0.35,6009.0,-0.3155186459281332
+Race/Ethnicity,AAMC - GPA Total,NA,2023,US,Unknown  Race/Ethnicity,3.66,0.31,1692.0,-0.13541827381310662
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,American Indian/Alaska Native,124.9,2.4,36.0,-1.3747262174913255
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,Asian,129.0,2.0,5901.0,0.4876598490941707
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,Black,126.0,2.2,1845.0,-0.9299811099505543
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,Hispanic,126.0,2.3,1493.0,-0.9081532183729996
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,126.8,2.5,19.0,-0.5197776981890532
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,White,128.0,2.1,9534.0,0.0
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,Another Race/Ethnicity,128.1,2.1,483.0,0.04761904761904491
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,Multiple Races/Ethnicities,127.0,2.3,2726.0,-0.4540766091864998
+Race/Ethnicity,MCAT CPBS,NA,2023,Matriculants,Unknown  Race/Ethnicity,128.3,2.1,657.0,0.14285714285714826
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,American Indian/Alaska Native,125.0,2.7,36.0,-0.9745314049285893
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,Asian,127.3,2.2,5901.0,-0.04545454545454933
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,Black,125.5,2.3,1845.0,-0.8442360168355842
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,Hispanic,125.4,2.5,1493.0,-0.8493353896711716
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,125.8,2.0,19.0,-0.7610423906471946
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,White,127.4,2.2,9534.0,0.0
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,Another Race/Ethnicity,126.5,2.3,483.0,-0.3999012711326465
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,Multiple Races/Ethnicities,126.8,2.4,2726.0,-0.2606233456578453
+Race/Ethnicity,MCAT CARS,NA,2023,Matriculants,Unknown  Race/Ethnicity,127.7,2.1,657.0,0.13949716649258181
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,American Indian/Alaska Native,125.5,1.9,36.0,-1.3841604427977374
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,Asian,128.8,1.9,5901.0,0.3075912095106213
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,Black,126.5,2.1,1845.0,-0.8290217434600847
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,Hispanic,126.9,2.3,1493.0,-0.6031849446916605
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,126.9,2.2,19.0,-0.6183469424008342
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,White,128.2,2.0,9534.0,0.0
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,Another Race/Ethnicity,128.3,1.9,483.0,0.05126520158511326
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,Multiple Races/Ethnicities,127.8,2.2,2726.0,-0.1902605976617936
+Race/Ethnicity,MCAT BBLS,NA,2023,Matriculants,Unknown  Race/Ethnicity,128.5,2.0,657.0,0.15000000000000568
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,American Indian/Alaska Native,126.7,1.8,36.0,-1.2427894220040867
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,Asian,129.5,1.8,5901.0,0.2701716134791496
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,Black,127.6,2.1,1845.0,-0.6991266372144941
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,Hispanic,127.6,2.4,1493.0,-0.6468048057775632
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,127.7,1.7,19.0,-0.7211102550927964
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,White,129.0,1.9,9534.0,0.0
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,Another Race/Ethnicity,129.0,1.9,483.0,0.0
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,Multiple Races/Ethnicities,128.6,2.1,2726.0,-0.19975046777557176
+Race/Ethnicity,MCAT PSBB,NA,2023,Matriculants,Unknown  Race/Ethnicity,129.1,1.9,657.0,0.052631578947365434
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,American Indian/Alaska Native,502.2,6.8,36.0,-1.5675620646856276
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,Asian,514.3,6.0,5901.0,0.31143356454671656
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,Black,505.7,6.6,1845.0,-1.046364204653659
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,Hispanic,506.4,7.6,1493.0,-0.8651247010927086
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,507.3,7.1,19.0,-0.7651673986796897
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,White,512.4,6.2,9534.0,0.0
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,Another Race/Ethnicity,511.9,6.0,483.0,-0.08195620119650533
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,Multiple Races/Ethnicities,510.6,6.9,2726.0,-0.27441766561295033
+Race/Ethnicity,MCAT Total,NA,2023,Matriculants,Unknown  Race/Ethnicity,513.6,5.9,657.0,0.19828617234529414
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,American Indian/Alaska Native,3.47,0.46,36.0,-0.7494028186010644
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,Asian,3.78,0.25,5901.0,0.1176244496066727
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,Black,3.46,0.4,1845.0,-0.8596602917566908
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,Hispanic,3.57,0.34,1493.0,-0.5947367404095812
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,3.56,0.4,19.0,-0.5632257083923145
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,White,3.75,0.26,9534.0,0.0
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,Another Race/Ethnicity,3.74,0.26,483.0,-0.03846153846153764
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,Multiple Races/Ethnicities,3.65,0.32,2726.0,-0.34299717028501797
+Race/Ethnicity,AAMC - GPA Science,NA,2023,Matriculants,Unknown  Race/Ethnicity,3.74,0.26,657.0,-0.03846153846153764
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,American Indian/Alaska Native,3.79,0.21,36.0,-0.4090479940519313
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,Asian,3.89,0.16,5901.0,0.11744404390294082
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,Black,3.74,0.26,1845.0,-0.5813776741499449
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,Hispanic,3.79,0.24,1493.0,-0.3771236166328257
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,3.79,0.22,19.0,-0.398014876083996
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,White,3.87,0.18,9534.0,0.0
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,Another Race/Ethnicity,3.88,0.15,483.0,0.0603571640283444
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,Multiple Races/Ethnicities,3.83,0.22,2726.0,-0.199007438041998
+Race/Ethnicity,AAMC - GPA Non-Science,NA,2023,Matriculants,Unknown  Race/Ethnicity,3.86,0.19,657.0,-0.054034322695831166
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,American Indian/Alaska Native,3.64,0.28,36.0,-0.6575959492214278
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,Asian,3.83,0.19,5901.0,0.1537956047553061
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,Black,3.59,0.31,1845.0,-0.8050173304207412
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,Hispanic,3.66,0.27,1493.0,-0.589245212355124
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,Native Hawaiian/Other Pacific Islander,3.65,0.29,19.0,-0.6021717344277748
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,White,3.8,0.2,9534.0,0.0
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,Another Race/Ethnicity,3.8,0.2,483.0,0.0
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,Multiple Races/Ethnicities,3.73,0.26,2726.0,-0.3017914294914581
+Race/Ethnicity,AAMC - GPA Total,NA,2023,Matriculants,Unknown  Race/Ethnicity,3.8,0.21,657.0,0.0
+Gender,MCAT CPBS,NA,2023,US,Male,127.2,2.8,22574.0,0.4911524908119384
+Gender,MCAT CARS,NA,2023,US,Male,126.0,2.7,22574.0,0.10907288200508873
+Gender,MCAT BBLS,NA,2023,US,Male,127.3,2.7,22574.0,0.4282983661489508
+Gender,MCAT PSBB,NA,2023,US,Male,127.7,2.7,22574.0,0.17519611040921224
+Gender,MCAT Total,NA,2023,US,Male,508.3,9.3,22574.0,0.3585926291764512
+Gender,AAMC - GPA Science,NA,2023,US,Male,3.58,0.4,22574.0,0.16856462574650438
+Gender,AAMC - GPA Non-Science,NA,2023,US,Male,3.75,0.29,22574.0,-0.14523864842631956
+Gender,AAMC - GPA Total,NA,2023,US,Male,3.65,0.33,22574.0,0.030303030303029655
+Gender,MCAT CPBS,NA,2023,US,Female,125.8,2.9,29763.0,0.0
+Gender,MCAT CARS,NA,2023,US,Female,125.7,2.8,29763.0,0.0
+Gender,MCAT BBLS,NA,2023,US,Female,126.1,2.9,29763.0,0.0
+Gender,MCAT PSBB,NA,2023,US,Female,127.2,3.0,29763.0,0.0
+Gender,MCAT Total,NA,2023,US,Female,504.8,10.2,29763.0,0.0
+Gender,AAMC - GPA Science,NA,2023,US,Female,3.51,0.43,29763.0,0.0
+Gender,AAMC - GPA Non-Science,NA,2023,US,Female,3.79,0.26,29763.0,0.0
+Gender,AAMC - GPA Total,NA,2023,US,Female,3.64,0.33,29763.0,0.0
+Gender,MCAT CPBS,NA,2023,Matriculants,Male,128.4,2.2,10160.0,0.45454545454545453
+Gender,MCAT CARS,NA,2023,Matriculants,Male,127.0,2.4,10160.0,0.0
+Gender,MCAT BBLS,NA,2023,Matriculants,Male,128.5,2.1,10160.0,0.3809523809523796
+Gender,MCAT PSBB,NA,2023,Matriculants,Male,128.9,2.0,10160.0,0.0487659849094143
+Gender,MCAT Total,NA,2023,Matriculants,Male,512.7,6.8,10160.0,0.2647058823529512
+Gender,AAMC - GPA Science,NA,2023,Matriculants,Male,3.72,0.29,10160.0,0.06778687417315081
+Gender,AAMC - GPA Non-Science,NA,2023,Matriculants,Male,3.83,0.22,10160.0,-0.2034629055765849
+Gender,AAMC - GPA Total,NA,2023,Matriculants,Male,3.77,0.24,10160.0,-0.04254356298115079
+Gender,MCAT CPBS,NA,2023,Matriculants,Female,127.4,2.2,12724.0,0.0
+Gender,MCAT CARS,NA,2023,Matriculants,Female,127.0,2.4,12724.0,0.0
+Gender,MCAT BBLS,NA,2023,Matriculants,Female,127.7,2.1,12724.0,0.0
+Gender,MCAT PSBB,NA,2023,Matriculants,Female,128.8,2.1,12724.0,0.0
+Gender,MCAT Total,NA,2023,Matriculants,Female,510.9,6.8,12724.0,0.0
+Gender,AAMC - GPA Science,NA,2023,Matriculants,Female,3.7,0.3,12724.0,0.0
+Gender,AAMC - GPA Non-Science,NA,2023,Matriculants,Female,3.87,0.17,12724.0,0.0
+Gender,AAMC - GPA Total,NA,2023,Matriculants,Female,3.78,0.23,12724.0,0.0
