@@ -2,6 +2,7 @@ import streamlit as st
 import pandas as pd
 import requests
 from io import StringIO
+import matplotlib.pyplot as plt
 
 # Set page layout to wide
 st.set_page_config(layout="wide")
@@ -80,7 +81,7 @@ filtered_df = merged_df[
 ]
 
 # Convert year into category using .loc to avoid SettingWithCopyWarning
-filtered_df.loc[:, 'Year'] = filtered_df['Year'].astype('category')
+filtered_df.loc[:, 'Year'] = filtered_df['Year'].astype(str)
 
 # Create the table with the desired columns
 summary_df = filtered_df[['Variable','Subject', 'Jurisdiction', 'Year', 'Grouping', 'Mean', 'SD', 'N']]
