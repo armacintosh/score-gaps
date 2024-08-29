@@ -5,6 +5,7 @@ from io import StringIO
 import matplotlib.pyplot as plt
 import plotly.graph_objects as go
 
+
 # Set page layout to wide
 st.set_page_config(layout="wide")
 

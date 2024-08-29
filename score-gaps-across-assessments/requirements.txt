@@ -3,3 +3,5 @@ pandas
 requests
 matplotlib
 plotly
+google-auth
+google-api-python-client

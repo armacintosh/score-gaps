@@ -4,9 +4,8 @@ from datetime import datetime, timedelta
 
 import pandas as pd
 import numpy as np
-import seaborn as sns
 
-import pandas as pd
+
 from google.oauth2 import service_account
 from googleapiclient.discovery import build
 from googleapiclient.http import MediaIoBaseDownload
@@ -163,6 +162,15 @@ def calculate_cohens_d(df, group_var, target_var, subset_var=None, subset_val=No
         
     return results_df
 
+def load_original_data():
+    url = 'https://raw.githubusercontent.com/armacintosh/score-gaps/main/score-gaps-across-assessments/merged_data.csv'
+    response = requests.get(url)
+    if response.status_code == 200:
+        return pd.read_csv(StringIO(response.text))
+    else:
+        st.error("Failed to load data from GitHub.")
+        return None
+
 # Order of subjects for the table
 subjects_ordered = [
     'NAEP - Science - 4',
@@ -200,3 +208,4 @@ race_order = [
     'Multiple Races/Ethnicities',
     'White'
 ]
+
