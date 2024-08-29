@@ -124,7 +124,7 @@ selected_subjects = st.sidebar.multiselect("Select Subjects", all_subjects, defa
 def color_scale(value):
     abs_value = abs(value)
     if abs_value <= 0.2:
-        return '#96D377'
+        return '#FFF2CD'
     elif 0.2 < abs_value <= 0.4:
         return '#D9EAD3'
     elif 0.4 < abs_value <= 0.6:
@@ -221,7 +221,7 @@ with main_col:
         legend_html = """
         <div style="display: flex; flex-direction: column; align-items: flex-start;">
             <div style="display: flex; align-items: center; margin-bottom: 5px;">
-                <div style="width: 20px; height: 20px; background-color: #CFE2F3; margin-right: 10px;"></div>
+                <div style="width: 20px; height: 20px; background-color: #FFF2CD; margin-right: 10px;"></div>
                 <span>Negligible (< 0.2)</span>
             </div>
             <div style="display: flex; align-items: center; margin-bottom: 5px;">
