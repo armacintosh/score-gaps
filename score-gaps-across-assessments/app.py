@@ -124,7 +124,7 @@ selected_subjects = st.sidebar.multiselect("Select Subjects", all_subjects, defa
 def color_scale(value):
     abs_value = abs(value)
     if abs_value <= 0.2:
-        return '#CFE2F3'
+        return '#96D377'
     elif 0.2 < abs_value <= 0.4:
         return '#D9EAD3'
     elif 0.4 < abs_value <= 0.6:
