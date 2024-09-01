@@ -5,6 +5,7 @@ import pandas as pd
 import numpy as np
 import requests
 from io import StringIO
+from st_aggrid.shared import GridUpdateMode, JsCode
 
 
 def load_original_data():
@@ -35,6 +36,33 @@ def effect_size_color_scale(value):
         return '#EFB9CC'
     else:
         return '#FFFFFF'
+
+# JavaScript code for custom cell style
+js_code = JsCode("""
+function(params) {
+    let value = params.value;
+    let color = '';
+    if (value !== null && !isNaN(value)) {
+        if (Math.abs(value) <= 0.2) {
+            color = '#96D377';
+        } else if (Math.abs(value) <= 0.4) {
+            color = '#D9EAD3';
+        } else if (Math.abs(value) <= 0.6) {
+            color = '#ECEED0';
+        } else if (Math.abs(value) <= 0.8) {
+            color = '#FEF2CC';
+        } else if (Math.abs(value) <= 1.0) {
+            color = '#F9DFCC';
+        } else if (Math.abs(value) <= 1.2) {
+            color = '#F4CCCC';
+        } else if (Math.abs(value) > 1.2) {
+            color = '#EFB9CC';
+        }
+    }
+    return {'backgroundColor': color};
+}
+""")
+
 
 def create_full_table(df):
     """
@@ -163,31 +191,31 @@ legend_html = """
 <div style="display: flex; flex-direction: column; align-items: flex-start;">
     <div style="display: flex; align-items: center; margin-bottom: 5px;">
         <div style="width: 20px; height: 20px; background-color: #96D377; margin-right: 10px;"></div>
-        <span>Negligible (< 0.2)</span>
+        <span>Negligible <br>(< 0.2)</span>
     </div>
     <div style="display: flex; align-items: center; margin-bottom: 5px;">
         <div style="width: 20px; height: 20px; background-color: #D9EAD3; margin-right: 10px;"></div>
-        <span>Small (0.2 - 0.4)</span>
+        <span>Small <br>(0.2 - 0.4)</span>
     </div>
     <div style="display: flex; align-items: center; margin-bottom: 5px;">
         <div style="width: 20px; height: 20px; background-color: #ECEED0; margin-right: 10px;"></div>
-        <span>Small-Moderate (0.4 - 0.6)</span>
+        <span>Small-Moderate <br>(0.4 - 0.6)</span>
     </div>
     <div style="display: flex; align-items: center; margin-bottom: 5px;">
         <div style="width: 20px; height: 20px; background-color: #FEF2CC; margin-right: 10px;"></div>
-        <span>Moderate (0.6 - 0.8)</span>
+        <span>Moderate <br>(0.6 - 0.8)</span>
     </div>
     <div style="display: flex; align-items: center; margin-bottom: 5px;">
         <div style="width: 20px; height: 20px; background-color: #F9DFCC; margin-right: 10px;"></div>
-        <span>Moderate-Large (0.8 - 1.0)</span>
+        <span>Moderate-Large <br>(0.8 - 1.0)</span>
     </div>
     <div style="display: flex; align-items: center; margin-bottom: 5px;">
         <div style="width: 20px; height: 20px; background-color: #F4CCCC; margin-right: 10px;"></div>
-        <span>Large (1.0 - 1.2)</span>
+        <span>Large <br>(1.0 - 1.2)</span>
     </div>
     <div style="display: flex; align-items: center; margin-bottom: 5px;">
         <div style="width: 20px; height: 20px; background-color: #EFB9CC; margin-right: 10px;"></div>
-        <span>Very Large (> 1.2)</span>
+        <span>Very Large <br>(> 1.2)</span>
     </div>
 </div>
 """
