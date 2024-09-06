@@ -103,7 +103,7 @@ with tab2:
     summary_df = summary_df.round(2)
     gb2 = GridOptionsBuilder.from_dataframe(summary_df)
     gb2.configure_side_bar()  # Optional: Add a sidebar for grid options
-    gb2.configure_default_column(editable=False, groupable=False, autoWidth=True)  # Enable autoWidth for all columns
+    gb2.configure_default_column(editable=False, groupable=True, autoWidth=True)  # Enable autoWidth for all columns
 
     gridOptions2 = gb2.build()
     
