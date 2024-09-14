@@ -7,8 +7,7 @@ import pandas as pd
 import numpy as np
 import requests
 from io import StringIO
-from fpdf import FPDF
-from io import BytesIO
+
 
 
 def load_original_data():
