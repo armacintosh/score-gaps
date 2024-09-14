@@ -1,13 +1,8 @@
 "Module containing helper functions for the ETL pipeline."
-import tempfile
-import time
-import streamlit as st
-from datetime import datetime, timedelta
-import pandas as pd
-import numpy as np
-import requests
 from io import StringIO
-
+import pandas as pd
+import requests
+import streamlit as st
 
 
 def load_original_data():

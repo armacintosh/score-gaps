@@ -1,14 +1,5 @@
-import tempfile
-from fpdf import FPDF
-import dash.dash_table as dash_table
-import matplotlib.pyplot as plt
 import pandas as pd
-import plotly.graph_objects as go
 import streamlit as st
-from st_aggrid import AgGrid
-from st_aggrid.grid_options_builder import GridOptionsBuilder
-from st_aggrid.shared import GridUpdateMode, JsCode
-
 from utils_app import *
 
 # Set page layout to wide
