@@ -1,33 +1,49 @@
-import streamlit as st
-import pandas as pd
+import tempfile
+from fpdf import FPDF
+import dash.dash_table as dash_table
 import matplotlib.pyplot as plt
+import pandas as pd
 import plotly.graph_objects as go
+import streamlit as st
 from st_aggrid import AgGrid
 from st_aggrid.grid_options_builder import GridOptionsBuilder
 from st_aggrid.shared import GridUpdateMode, JsCode
+
 from utils_app import *
 
 # Set page layout to wide
 st.set_page_config(layout="wide")
 
-## Set fonr to Helvetica
-st.markdown(
-    """
+
+# Inject custom CSS for Montserrat font
+st.markdown("""
     <style>
-    /* Apply font family to the whole app */
-    * {
-        font-family: 'Helvetica', sans-serif;  /* Change 'Arial' to your preferred font */
+    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
+
+    html, body, [class*="css"]  {
+        font-family: 'Montserrat', sans-serif;
     }
     </style>
-    """,
-    unsafe_allow_html=True
-)
+    """, unsafe_allow_html=True)
 
 # Example content to see the font change
 st.title("Score Gaps Across Assessments")
 
 # Create a two-column layout
 st.markdown('<div class="clearfix">', unsafe_allow_html=True)
+
+from utils_app import get_legend_html
+
+# Initialize font size in session state if not already set
+if "font_size" not in st.session_state:
+    st.session_state.font_size = "16px"  # Default font size
+
+# Function to update font size
+def update_font_size(size):
+    st.session_state.font_size = size
+
+# Get the updated legend HTML with the selected font size
+legend_html = get_legend_html(st.session_state.font_size)
       
 # Load your dataframe
 merged_df = load_original_data()
@@ -39,83 +55,101 @@ st.sidebar.header("Choose Groupings and Subjects")
 merged_df.loc[:, 'Year'] = merged_df['Year'].astype('Int64')
 
 # Create the index
-merged_df['Index'] = merged_df['Subject'] + ' - ' + merged_df['Jurisdiction'] + ' - ' + merged_df['Year'].astype(str)
+merged_df['Assessment'] = merged_df['Subject'] + ' - ' + merged_df['Jurisdiction'] + ' - ' + merged_df['Year'].astype(str)
 
 # Set default values for the multiselects
 all_variables = merged_df['Variable'].unique()
 selected_variables = st.sidebar.multiselect("Select Variable", all_variables, default= var_defaults)
-all_subjects = merged_df['Index'].unique()
+all_subjects = merged_df['Assessment'].unique()
 selected_subjects = st.sidebar.multiselect("Select Subjects", all_subjects, default= sub_defaults)
+
+# Initialize font size in session state if not already set
+if "font_size" not in st.session_state:
+    st.session_state.font_size = 16  # Default font size (in px)
+
+# Create a slider in the right sidebar to adjust the font size
+with st.sidebar:
+    st.session_state.font_size = st.slider(
+        "Adjust Legend Font Size", min_value=8, max_value=24, value=16, step=1
+    )
+
 
 # Filtering the dataframe based on user selection
 filtered_df = merged_df[
     (merged_df['Variable'].isin(selected_variables)) & 
-    (merged_df['Index'].isin(selected_subjects))
+    (merged_df['Assessment'].isin(selected_subjects))
 ]
+
 
 # create full data table for reference
 summary_df = create_full_table(filtered_df)
 
-# create, clean, pivot df for effect size table
-pivot_df, cell_colors = pivot_clean_df(filtered_df, effect_size_color_scale)
 
-# Creating tabs in the main column
-tab1, tab2 = st.tabs(['Pivot Table', 'Summary Table'])
+# Expander with the explainer HTML
+with st.expander("**Cohen's d Explainer**"):
+    explainer_html = get_explainer_html()
+    st.markdown(explainer_html, unsafe_allow_html=True)
 
-with tab1:
+# Get unique values of 'Variable'
+unique_variables = filtered_df['Variable'].unique().tolist()
+
+# Create tabs dynamically for each unique 'Variable'
+tabs = st.tabs(unique_variables)
+
+# Display content in each tab
+for i, var in enumerate(unique_variables):
     
-    # Create a two-column layout within the Effect Size section
-    table_col, legend_col = st.columns([5, 1])  # 3:1 ratio    
-    
-    with table_col:                
-        # Create the table
-        # Create GridOptions
-        gb = GridOptionsBuilder.from_dataframe(pivot_df)
-        gb.configure_pagination(paginationAutoPageSize=True) # Add pagination
-        gb.configure_side_bar()  # Add a sidebar
-        gb.configure_default_column(editable=True, groupable=True)
+    # Filter the dataframe for the current 'Variable'
+    v_df = filtered_df[filtered_df['Variable'] == var]
 
-        # Apply the custom cell color function to all columns except 'Index'
-        for col in pivot_df.columns:
-            if col != 'Index':
-                gb.configure_column(col, cellStyle=js_code)
-    
-        gridOptions = gb.build()
+    with tabs[i]:
+        # Creating tabs in the main column
+        tab1, tab2 = st.tabs(['Pivot Table', 'Summary Table'])
 
-        # Display the DataFrame using AgGrid
-        AgGrid(
-            pivot_df,
-            gridOptions=gridOptions,
-            enable_enterprise_modules=True, 
-            allow_unsafe_jscode=True, 
-            theme='light',
-            height=450,
-        )            
-        
-    with legend_col:
-        # Display the styled header for the Effect Size Table
-        st.markdown("**Effect Size Interpretation**")
-        st.markdown(legend_html, unsafe_allow_html=True)
+        with tab1:
 
-    
-with tab2:
-    # Create GridOptions for the summary_df
-    summary_df = summary_df.round(2)
-    gb2 = GridOptionsBuilder.from_dataframe(summary_df)
-    gb2.configure_side_bar()  # Optional: Add a sidebar for grid options
-    gb2.configure_default_column(editable=False, groupable=True, autoWidth=True)  # Enable autoWidth for all columns
+            # Get the comparison group for the given variable
+            comparison_group = comparison.get(var, 'Unknown')  # 'Unknown' is a fallback if the variable is not in the dictionary
 
-    gridOptions2 = gb2.build()
-    
-    AgGrid(
-        summary_df, 
-        gridOptions=gridOptions2,
-        enable_enterprise_modules=True, 
-        allow_unsafe_jscode=True, 
-        theme='light',
-        height=450,
-    )
-        
+            # write what the groupings are compared to
+            st.write(f"The comparison group for {var} is '{comparison_group}'")
+                        
+            # create, clean, pivot df for effect size table
+            pivot_df = var_clean_df(v_df)
+
+            # Reorder columns if the variable is 'race/ethnicity'
+            pivot_df = reorder_columns_by_variable(pivot_df, var, order_dict)
+
+            # Apply the effect_size_color_scale to all columns except the first one
+            styled_df = pivot_df.style.map(effect_size_color_scale, 
+                                                subset=pd.IndexSlice[:, pivot_df.columns[1:]]) \
+                            .format("{:.2f}", subset=pd.IndexSlice[:, pivot_df.select_dtypes(include=['float', 'int']).columns])
+            
+
+            # Display the styled dataframe with horizontal scrolling
+            st.dataframe(styled_df, 
+                        use_container_width=True,
+                        hide_index=True
+                        )
+            
+                
+            with st.expander("**Effect Size Interpretation**", expanded=True):
+
+                # Get the updated legend HTML with the selected font size
+                legend_html = get_legend_html(f"{st.session_state.font_size}px")
+
+                # Display the legend``
+                st.markdown(legend_html, unsafe_allow_html=True)
+           
+        with tab2:
+            summary_df = create_full_table(v_df)
+            
+            st.dataframe(summary_df.style.format(format_dict),
+                         use_container_width=True,
+                        hide_index=True
+                        )
+            
 # Notes section
-with st.expander("**Notes**", expanded=False):
+with st.expander("**Assessment Information & Sources**", expanded=False):
     st.markdown(Notes_html)
+    
