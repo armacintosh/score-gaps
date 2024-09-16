@@ -95,7 +95,7 @@ for i, var in enumerate(unique_variables):
 
     with tabs[i]:
         # Creating tabs in the main column
-        tab1, tab2 = st.tabs(['Pivot Table', 'Summary Table'])
+        tab1, tab2 = st.tabs(['Effect sizes', 'Data'])
 
         with tab1:
 
