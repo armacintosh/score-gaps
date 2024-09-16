@@ -162,7 +162,13 @@ order_dict = {
 # Dictionary to map the comparison group based on the variable
 comparison = {
     'Race/Ethnicity': 'White',
-    'Gender': 'Female'
+    'Gender': 'Female',
+    'Family Income': '> $100,000',
+	'Parent Education': 'Bachelor\'s Degree',
+	'English Proficiency': 'Advanced/Functionally Native/Native',
+	'Home Language': 'English',
+	'Citizenship': 'Domestic',
+	'National School Lunch Program eligibility': 'Eligible',
 }
 
 def reorder_columns_by_variable(pivot_df, variable, order_dict=None):
@@ -193,8 +199,9 @@ def reorder_columns_by_variable(pivot_df, variable, order_dict=None):
 
     return pivot_df
 
-# Define defaults
-var_defaults = ["Race/Ethnicity", "Gender"]
+# Define defaults and options
+var_defaults = ["Race/Ethnicity", "Gender", ]
+
 sub_defaults = [
     'NAEP - Science - 4 - US - 2019',
     'NAEP - Science - 8 - US - 2019',
@@ -267,33 +274,6 @@ def get_legend_html(font_size):
     """
     return legend_html
 
-Notes_html1 = """
-        **Data Sources**  
-        Annual reports for the following sources were available. Most recent data used where possible.
-
-        **Assessment Sources:**
-        - **SAT**: [SAT Suite Program Results](https://reports.collegeboard.org/sat-suite-program-results)  
-        - Using Pooled SD: [Total Group SAT Suite of Assessments Annual Report](https://reports.collegeboard.org/media/pdf/2023-total-group-sat-suite-of-assessments-annual-report%20ADA.pdf)
-        - **NAEP**: [NAEP API Documentation](https://www.nationsreportcard.gov/api_documentation.aspx)  
-        - See information below for pooled sample size
-        - **LSAT**: [LSAT Research Report](https://www.lsac.org/sites/default/files/research/TR-24-01.pdf)
-        - **GRE**: [GRE Snapshot Report](https://www.ets.org/pdfs/gre/snapshot.pdf#page=11.09)
-        - **GMAT**: [GMAT Test Taker Data](https://www.gmac.com/-/media/files/gmac/research/gmat-test-taker-data/profile-of-gmat-testing-north-america-ty2019-ty2023.pdf)  
-        - Using Pooled SD: [GMAT Validity and Testing Report](https://www.gmac.com/-/media/files/gmac/research/validity-and-testing/rr-17-01-differential-validity-talento-miller-web-release-2.pdf#page=6.09)
-        - **Casper**: [Casper Technical Manual](https://acuityinsights.com/resource/casper-technical-manual/)  
-        - More detailed information derived from Qlik
-        - **AAMC - MCAT GPA**: [AAMC 2023 Facts - Applicants and Matriculants Data](https://www.aamc.org/data-reports/students-residents/data/2023-facts-applicants-and-matriculants-data)
-
-        **NAEP Sample Size:**
-        - **2019 Reading**
-        - Grade 12: N = 26,700 ([Source](https://www.nationsreportcard.gov/highlights/reading/2019/))
-        - Grade 8: N = 143,100 ([Source](https://www.nationsreportcard.gov/highlights/reading/2019/))
-        - Grade 4: N = 150,600 ([Source](https://www.nationsreportcard.gov/highlights/reading/2019/))
-        - **2019 Science**
-        - Grade 4: N = 30,400 ([Source](https://www.nationsreportcard.gov/science/?grade=4))
-        - Grade 8: N = 31,400 ([Source](https://www.nationsreportcard.gov/science/?grade=4))
-        - Grade 12: N = 26,400 ([Source](https://www.nationsreportcard.gov/science/?grade=4))
-        """
 
 Notes_html = """
         (in alphabetical order)

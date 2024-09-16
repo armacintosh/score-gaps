@@ -74,6 +74,60 @@ def read_google_sheet(service, spreadsheet_id, sheet_name = None, max_retries = 
     return df
 
 
+# Function to calculate Cohen's d
+def cohen_d(mean1, mean2, sd1, sd2):
+	pooled_sd = np.sqrt((sd1 ** 2 + sd2 ** 2) / 2)
+	return (mean2 - mean1) / pooled_sd
+
+# Function to calculate Cohen's d effect size across 'Grouping'
+def calculate_cohens_d(combined_df, reference_groups):
+    
+    
+    
+	results = []
+
+	# Iterate through each unique combination of Variable, Subject, Year, and Jurisdiction
+	for (variable, subject, year, jurisdiction) in combined_df.groupby(['Variable', 'Subject', 'Year', 'Jurisdiction']).groups.keys():
+		# Check if the variable is in the reference_groups dictionary
+		if variable not in reference_groups:
+			continue
+		
+		subset_df = combined_df[(combined_df['Variable'] == variable) &
+								(combined_df['Subject'] == subject) &
+								(combined_df['Year'] == year) &
+								(combined_df['Jurisdiction'] == jurisdiction)]
+		
+		# Identify the reference group
+		reference_group = reference_groups[variable]
+		
+		reference_row = subset_df[subset_df['Grouping'] == reference_group]
+		if reference_row.empty:
+			continue
+		
+		mean_ref = reference_row['Mean'].values[0]
+		sd_ref = reference_row['SD'].values[0]
+		
+		# Calculate Cohen's d for each group compared to the reference group
+		for _, row in subset_df.iterrows():
+			if row['Grouping'] == reference_group:
+				continue
+			
+			mean_grp = row['Mean']
+			sd_grp = row['SD']
+			d = cohen_d(mean_ref, mean_grp, sd_ref, sd_grp)
+			
+			results.append({
+				'Variable': variable,
+				'Subject': subject,
+				'Year': year,
+				'Jurisdiction': jurisdiction,
+				'Reference Group': reference_group,
+				'Comparison Group': row['Grouping'],
+				'Cohen\'s d': d
+			})
+	
+	return pd.DataFrame(results)
+
 def descriptive_counts_and_percents(df, group_var, target_var):
     """
     Create a descriptive DataFrame with counts and percent for each level of a grouping variable by a target variable.
@@ -104,7 +158,6 @@ def descriptive_counts_and_percents(df, group_var, target_var):
     return descriptive_df
 
 
-def calculate_cohens_d(df, group_var, target_var, subset_var=None, subset_val=None):
     """
     Calculate Cohen's d effect size for a target variable across groups defined in a grouping variable,
     using the most frequently occurring group as the reference, for the whole sample and a subset,
@@ -170,42 +223,4 @@ def load_original_data():
     else:
         st.error("Failed to load data from GitHub.")
         return None
-
-# Order of subjects for the table
-subjects_ordered = [
-    'NAEP - Science - 4',
-    'NAEP - Reading - 4',
-    'NAEP - Reading - 8',
-    'NAEP - Science - 8',
-    'NAEP - Science - 12',
-    'NAEP - Reading - 12',
-    'SAT - Total',
-    'SAT - Math',
-    'SAT - ERW',
-    'Casper',
-    'MCAT Total',
-    'MCAT CPBS',
-    'MCAT CARS',
-    'MCAT BBLS',
-    'MCAT PSBB',
-    'AAMC - GPA Total',
-    'AAMC - GPA Science',
-    'AAMC - GPA Non-Science',
-    'GRE - Analytical Writing',
-    'GRE - Quantitative',
-    'GRE - Verbal',
-    'GMAT - Total Score',
-    'LSAT'
-]
-
-# Define the race order
-race_order = [
-    'Black',
-    'Hispanic',
-    'Asian',
-    'American Indian/Alaska Native',
-    'Native Hawaiian/Other Pacific Islander',
-    'Multiple Races/Ethnicities',
-    'White'
-]
 
