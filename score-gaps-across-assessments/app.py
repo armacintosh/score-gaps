@@ -21,6 +21,15 @@ df = load_original_data()
 # Sidebar for user input
 st.sidebar.header("Choose Assessments")
 
+####
+# Initialize session state to track the active tab
+if 'active_tab' not in st.session_state:
+    st.session_state.active_tab = list(tabs_dicts.keys())[0]  # Set default to the first tab
+
+
+# Create the tabs
+tab_selection = st.tabs(list(tabs_dicts.keys()))
+
 
 ####
 # Create the dictionary for assessment groups
@@ -34,46 +43,60 @@ for assessment in df['Assessment'].unique():
 # reorder the dictionary according to: assessment_group_order
 assessment_dict = reorder_assessment_dict(assessment_dict, assessment_group_order)
 
-
 # Display the resulting dictionary for assessment groups
 assessments_available = list(assessment_dict.keys())
 
 # Get all assessments
 assessments_all = df['Assessment'].unique()
 
-# Check if session state for selected assessments exists, if not set it to all assessments
+# Initialize session state for assessment groups and specific assessments if not set
 if 'selected_assessments' not in st.session_state:
     st.session_state.selected_assessments = []
 
-# Initialize session state for specific assessments to 'assessments_available'
 if 'selected_all_assessments' not in st.session_state:
     st.session_state.selected_all_assessments = assessments_default
 
-# Add a reset button to the sidebar for assessment groups
+# Check if 'available_variables' exists and set it based on active tab or a fallback
+if 'available_variables' not in st.session_state:
+    st.session_state.available_variables = []
+
+# Add a reset button for all assessment groups
 if st.sidebar.button("All Assessment Groups"):
+    st.session_state.selected_all_assessments = []  # Set default specific assessments
     st.session_state.selected_assessments = assessments_available
     
 # Add a button to reset specific assessments to the default list from `utils_app.py`
 if st.sidebar.button("Default Assessments"):
-    # Reset specific assessments to the default from utils_app.py
-    valid_default_assessments = [a for a in assessments_default if a in assessments_all]
-    st.session_state.selected_assessments = []
-    st.session_state.selected_all_assessments = valid_default_assessments
-    
+    st.session_state.selected_assessments = []  # Clear the assessment groups
+    st.session_state.selected_all_assessments = assessments_default  # Set default specific assessments
 
-# Sidebar multiselect widget for assessment groups
+# Sidebar multiselect for assessment groups
 selected_assessments = st.sidebar.multiselect(
-    "Select Assessment Groups", 
+    "Select Assessment Groups",
     assessments_available, 
     default=st.session_state.selected_assessments
 )
-    
-# Sidebar multiselect widget for specific assessments, initialized to 'assessments_available'
+
+# Update session state when selections are made or all are removed
+if selected_assessments != st.session_state.selected_assessments:
+    st.session_state.selected_assessments = selected_assessments
+
+# Sidebar multiselect for specific assessments
 selected_all_assessments = st.sidebar.multiselect(
-    "Select Specific Assessments", 
+    "Select Specific Assessments",
     assessments_all, 
     default=st.session_state.selected_all_assessments
 )
+
+# Update session state when selections are made or all are removed
+if selected_all_assessments != st.session_state.selected_all_assessments:
+    st.session_state.selected_all_assessments = selected_all_assessments
+
+
+# Ensure 'available_variables' is set based on the current tab (assuming tabs_dicts is available)
+if st.session_state.get("active_tab"):
+    st.session_state.available_variables = tabs_dicts.get(st.session_state.active_tab, [])
+
 
 # Update session state with the current selections from both multiselects
 st.session_state.selected_assessments = selected_assessments
@@ -98,14 +121,6 @@ with st.sidebar:
     )
     
 ####
-# Initialize session state to track the active tab
-if 'active_tab' not in st.session_state:
-    st.session_state.active_tab = list(tabs_dicts.keys())[0]  # Set default to the first tab
-
-
-# Create the tabs
-tab_selection = st.tabs(list(tabs_dicts.keys()))
-
 # Detect the selected tab and put up the data
 for i, tab_name in enumerate(tabs_dicts.keys()):
     with tab_selection[i]:

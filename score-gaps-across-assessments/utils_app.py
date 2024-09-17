@@ -147,7 +147,7 @@ def make_footnote (comparison_param, variables):
         
         # Option 2: Code block style
         footnote_text += f"The comparison group for <code>{var}</code> is <b>{comparison_group}</b><br>"
-
+        
     
     # Inject custom CSS for smaller font size and reduced line spacing
     st.markdown(
