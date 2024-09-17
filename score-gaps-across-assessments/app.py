@@ -24,6 +24,8 @@ merged_df = load_original_data()
 # Sidebar for user input
 st.sidebar.header("Choose Groupings and Subjects")
 
+st.dataframe(merged_df)
+
 # Set default values for the multiselects
 all_variables = merged_df['Variable'].unique()
 selected_variables = st.sidebar.multiselect("Select Variable", all_variables, default= var_defaults)
