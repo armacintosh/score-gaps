@@ -5,33 +5,15 @@ from utils_app import *
 # Set page layout to wide
 st.set_page_config(layout="wide")
 
-
-# Inject custom CSS for Montserrat font
-st.markdown("""
-    <style>
-    @import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600&display=swap');
-
-    html, body, [class*="css"]  {
-        font-family: 'Montserrat', sans-serif;
-    }
-    </style>
-    """, unsafe_allow_html=True)
-
 # Example content to see the font change
 st.title("Score Gaps Across Assessments")
 
 # Create a two-column layout
 st.markdown('<div class="clearfix">', unsafe_allow_html=True)
 
-from utils_app import get_legend_html
-
 # Initialize font size in session state if not already set
 if "font_size" not in st.session_state:
     st.session_state.font_size = "16px"  # Default font size
-
-# Function to update font size
-def update_font_size(size):
-    st.session_state.font_size = size
 
 # Get the updated legend HTML with the selected font size
 legend_html = get_legend_html(st.session_state.font_size)
@@ -41,12 +23,6 @@ merged_df = load_original_data()
 
 # Sidebar for user input
 st.sidebar.header("Choose Groupings and Subjects")
-
-# Convert year into category using .loc to avoid SettingWithCopyWarning
-merged_df.loc[:, 'Year'] = merged_df['Year'].astype('Int64')
-
-# Create the index
-merged_df['Assessment'] = merged_df['Subject'] + ' - ' + merged_df['Jurisdiction'] + ' - ' + merged_df['Year'].astype(str)
 
 # Set default values for the multiselects
 all_variables = merged_df['Variable'].unique()
@@ -64,17 +40,14 @@ with st.sidebar:
         "Adjust Legend Font Size", min_value=8, max_value=24, value=16, step=1
     )
 
-
 # Filtering the dataframe based on user selection
 filtered_df = merged_df[
     (merged_df['Variable'].isin(selected_variables)) & 
     (merged_df['Assessment'].isin(selected_subjects))
 ]
 
-
 # create full data table for reference
 summary_df = create_full_table(filtered_df)
-
 
 # Expander with the explainer HTML
 with st.expander("**Cohen's d Explainer**"):
@@ -84,14 +57,20 @@ with st.expander("**Cohen's d Explainer**"):
 # Get unique values of 'Variable'
 unique_variables = filtered_df['Variable'].unique().tolist()
 
-# Create tabs dynamically for each unique 'Variable'
-tabs = st.tabs(unique_variables)
+# Get the keys of char_dicts to use as tab names
+tab_names = list(char_dicts.keys())
+
+# Create tabs dynamically based on the keys in char_dicts
+tabs = st.tabs(tab_names)
 
 # Display content in each tab
-for i, var in enumerate(unique_variables):
+for i, tab_name in enumerate(tab_names):
     
-    # Filter the dataframe for the current 'Variable'
-    v_df = filtered_df[filtered_df['Variable'] == var]
+    # Get the list of variables associated with the current tab (key from char_dicts)
+    variables_in_tab = char_dicts[tab_name]
+    
+    # Filter the DataFrame for all variables in the list for the current tab
+    v_df = filtered_df[filtered_df['Variable'].isin(variables_in_tab)]
 
     with tabs[i]:
         # Creating tabs in the main column

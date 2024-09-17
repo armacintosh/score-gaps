@@ -97,9 +97,6 @@ def var_clean_df(df):
     # Round numeric columns to 2 decimals for display
     pivot_df[numeric_cols] = pivot_df[numeric_cols].round(2)
     
-    # Format numeric columns to show two decimal places, even for whole numbers
-    # pivot_df[numeric_cols] = pivot_df[numeric_cols].applymap(lambda x: f'{x:.2f}')
-
     return pivot_df
 
 # Order of subjects for the table
@@ -138,6 +135,13 @@ format_dict = {
     "Cohen's d": '{:.2f}'      # 2 decimal places for Cohen's d
 }
 
+char_dicts = {
+    'Gender':['Gender'],
+    'Race/Ethnicity':['Race/Ethnicity'],
+    'SES':['Family Income', 'Parent Education','National School Lunch Program eligibility'],
+    'Language & Citizenship':['Home Language', 'English Proficiency','Citizenship']
+}
+
 # Define custom column order lists for different variables
 order_dict = {
     'Race/Ethnicity': [
@@ -155,9 +159,40 @@ order_dict = {
         'Another gender',
         'No Response'
     ],
+    'Parent Education': [
+        'No High School Diploma',
+        'High School Diploma',
+        'Associate Degree', 
+        'Graduate Degree',   
+        'No Response'
+    ],
+    'Family Income': [
+        '< $50,000', 
+        '$50,000 to $74,999',
+        '$75,000 to $99,999', 
+        '> $100,000',
+        'No Response'
+    ],
+    'National School Lunch Program eligibility': [
+        'Eligible',
+        'Information not available'
+    ],
+    'Citizenship': [
+        'International',
+        'Domestic',
+        'No Response'
+    ],
+    'Home Language': [
+        'Another Language',
+        'English',
+        'No Response'
+    ],
+    'English Proficiency': [
+        'Basic/Fair/Competent',
+        'No Response'
+    ]
     # Add more variables and their corresponding column orders here
 }
-
 
 # Dictionary to map the comparison group based on the variable
 comparison = {
@@ -168,7 +203,7 @@ comparison = {
 	'English Proficiency': 'Advanced/Functionally Native/Native',
 	'Home Language': 'English',
 	'Citizenship': 'Domestic',
-	'National School Lunch Program eligibility': 'Eligible',
+	'National School Lunch Program eligibility': 'Not eligible',
 }
 
 def reorder_columns_by_variable(pivot_df, variable, order_dict=None):
@@ -274,6 +309,9 @@ def get_legend_html(font_size):
     """
     return legend_html
 
+# Function to update font size
+def update_font_size(size):
+    st.session_state.font_size = size
 
 Notes_html = """
         (in alphabetical order)
