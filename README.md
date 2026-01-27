@@ -1,6 +1,7 @@
 # Public Data Statistical Aggregator
+Aug 2024
 
-[🌐 Visit Grounded Scientific](https://alexandermacintosh.ca/) | [📅 Book a Strategy Call](https://calendar.app.google/mWcfwiGYS5trNMer6)
+[🌐 Browse My Profile](https://alexandermacintosh.ca/) | [📅 Book a Strategy Call](https://calendar.app.google/mWcfwiGYS5trNMer6)
 
 > **Project Context:** A statistical benchmarking tool that aggregates public demographic performance data from major standardized assessments.
 > **Business Value:** Provides critical "Population Level" context for fairness audits. It allows organizations to distinguish between *algorithmic bias* (errors in the tool) and *systemic disparities* (reflections of the population) by comparing internal results against national baselines.
